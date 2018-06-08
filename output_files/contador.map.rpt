@@ -1,5 +1,5 @@
 Analysis & Synthesis report for contador
-Fri Jun  8 11:41:21 2018
+Fri Jun  8 17:16:35 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -34,24 +34,23 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  26. Port Connectivity Checks: "cronometro:C1|contador:MS2"
  27. Port Connectivity Checks: "cronometro:C1|contador:MS1"
  28. Port Connectivity Checks: "cronometro:C1|divF:DIV1"
- 29. Port Connectivity Checks: "cronometro:C1|divF:DIV2"
- 30. Port Connectivity Checks: "cronometro:C1"
- 31. Port Connectivity Checks: "horario:H1|contador:H2"
- 32. Port Connectivity Checks: "horario:H1|contador:H1"
- 33. Port Connectivity Checks: "horario:H1|contador:M2"
- 34. Port Connectivity Checks: "horario:H1|contador:M1"
- 35. Port Connectivity Checks: "horario:H1|contador:S2"
- 36. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV4"
- 37. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV3"
- 38. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV2"
- 39. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV1"
- 40. Port Connectivity Checks: "horario:H1|contador:S1"
- 41. Port Connectivity Checks: "horario:H1|divF:DIV1"
- 42. Port Connectivity Checks: "horario:H1|divF:DIV2"
- 43. Port Connectivity Checks: "horario:H1|divF:DIV3"
- 44. Port Connectivity Checks: "horario:H1"
- 45. Elapsed Time Per Partition
- 46. Analysis & Synthesis Messages
+ 29. Port Connectivity Checks: "cronometro:C1"
+ 30. Port Connectivity Checks: "horario:H1|contador:H2"
+ 31. Port Connectivity Checks: "horario:H1|contador:H1"
+ 32. Port Connectivity Checks: "horario:H1|contador:M2"
+ 33. Port Connectivity Checks: "horario:H1|contador:M1"
+ 34. Port Connectivity Checks: "horario:H1|contador:S2"
+ 35. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV4"
+ 36. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV3"
+ 37. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV2"
+ 38. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV1"
+ 39. Port Connectivity Checks: "horario:H1|contador:S1"
+ 40. Port Connectivity Checks: "horario:H1|divF:DIV1"
+ 41. Port Connectivity Checks: "horario:H1|divF:DIV2"
+ 42. Port Connectivity Checks: "horario:H1|divF:DIV3"
+ 43. Port Connectivity Checks: "horario:H1"
+ 44. Elapsed Time Per Partition
+ 45. Analysis & Synthesis Messages
 
 
 
@@ -77,15 +76,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jun  8 11:41:21 2018           ;
+; Analysis & Synthesis Status        ; Successful - Fri Jun  8 17:16:35 2018           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; contador                                        ;
 ; Top-level Entity Name              ; relogio                                         ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 2,777                                           ;
-;     Total combinational functions  ; 2,759                                           ;
-;     Dedicated logic registers      ; 1,878                                           ;
-; Total registers                    ; 1878                                            ;
+; Total logic elements               ; 2,742                                           ;
+;     Total combinational functions  ; 2,724                                           ;
+;     Dedicated logic registers      ; 1,852                                           ;
+; Total registers                    ; 1852                                            ;
 ; Total pins                         ; 51                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
@@ -210,27 +209,27 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-----------------------------------+
 ; Resource                                    ; Usage                             ;
 +---------------------------------------------+-----------------------------------+
-; Estimated Total logic elements              ; 2,777                             ;
+; Estimated Total logic elements              ; 2,742                             ;
 ;                                             ;                                   ;
-; Total combinational functions               ; 2759                              ;
+; Total combinational functions               ; 2724                              ;
 ; Logic element usage by number of LUT inputs ;                                   ;
-;     -- 4 input functions                    ; 727                               ;
-;     -- 3 input functions                    ; 210                               ;
-;     -- <=2 input functions                  ; 1822                              ;
+;     -- 4 input functions                    ; 724                               ;
+;     -- 3 input functions                    ; 205                               ;
+;     -- <=2 input functions                  ; 1795                              ;
 ;                                             ;                                   ;
 ; Logic elements by mode                      ;                                   ;
-;     -- normal mode                          ; 1060                              ;
-;     -- arithmetic mode                      ; 1699                              ;
+;     -- normal mode                          ; 1050                              ;
+;     -- arithmetic mode                      ; 1674                              ;
 ;                                             ;                                   ;
-; Total registers                             ; 1878                              ;
-;     -- Dedicated logic registers            ; 1878                              ;
+; Total registers                             ; 1852                              ;
+;     -- Dedicated logic registers            ; 1852                              ;
 ;     -- I/O registers                        ; 0                                 ;
 ;                                             ;                                   ;
 ; I/O pins                                    ; 51                                ;
 ; Embedded Multiplier 9-bit elements          ; 0                                 ;
-; Maximum fan-out node                        ; cronometro:C1|contador:MS1|comb~0 ;
+; Maximum fan-out node                        ; cronometro:C1|contador:MS2|comb~0 ;
 ; Maximum fan-out                             ; 108                               ;
-; Total fan-out                               ; 12648                             ;
+; Total fan-out                               ; 12516                             ;
 ; Average fan-out                             ; 2.70                              ;
 +---------------------------------------------+-----------------------------------+
 
@@ -240,7 +239,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                           ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------+--------------+
-; |relogio                   ; 2759 (44)         ; 1878 (2)     ; 0           ; 0            ; 0       ; 0         ; 51   ; 0            ; |relogio                                      ; work         ;
+; |relogio                   ; 2724 (44)         ; 1852 (2)     ; 0           ; 0            ; 0       ; 0         ; 51   ; 0            ; |relogio                                      ; work         ;
 ;    |alarme:A1|             ; 682 (28)          ; 470 (5)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1                            ; work         ;
 ;       |contador:H1|        ; 152 (3)           ; 110 (2)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1|contador:H1                ; work         ;
 ;          |divF:DIV1|       ; 38 (38)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1|contador:H1|divF:DIV1      ; work         ;
@@ -263,7 +262,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |divF:DIV3|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1|contador:M2|divF:DIV3      ; work         ;
 ;          |divF:DIV4|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1|contador:M2|divF:DIV4      ; work         ;
 ;       |divF:DIV1|          ; 46 (46)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1|divF:DIV1                  ; work         ;
-;    |cronometro:C1|         ; 988 (1)           ; 714 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1                        ; work         ;
+;    |cronometro:C1|         ; 953 (1)           ; 688 (1)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1                        ; work         ;
 ;       |contador:M1|        ; 151 (3)           ; 110 (2)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:M1            ; work         ;
 ;          |divF:DIV1|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:M1|divF:DIV1  ; work         ;
 ;          |divF:DIV2|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:M1|divF:DIV2  ; work         ;
@@ -274,11 +273,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |divF:DIV2|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:M2|divF:DIV2  ; work         ;
 ;          |divF:DIV3|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:M2|divF:DIV3  ; work         ;
 ;          |divF:DIV4|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:M2|divF:DIV4  ; work         ;
-;       |contador:MS1|       ; 151 (3)           ; 110 (2)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS1           ; work         ;
-;          |divF:DIV1|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS1|divF:DIV1 ; work         ;
+;       |contador:MS1|       ; 153 (3)           ; 110 (2)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS1           ; work         ;
+;          |divF:DIV1|       ; 38 (38)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS1|divF:DIV1 ; work         ;
 ;          |divF:DIV2|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS1|divF:DIV2 ; work         ;
 ;          |divF:DIV3|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS1|divF:DIV3 ; work         ;
-;          |divF:DIV4|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS1|divF:DIV4 ; work         ;
+;          |divF:DIV4|       ; 38 (38)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS1|divF:DIV4 ; work         ;
 ;       |contador:MS2|       ; 151 (3)           ; 110 (2)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS2           ; work         ;
 ;          |divF:DIV1|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS2|divF:DIV1 ; work         ;
 ;          |divF:DIV2|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:MS2|divF:DIV2 ; work         ;
@@ -295,7 +294,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |divF:DIV3|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:S2|divF:DIV3  ; work         ;
 ;          |divF:DIV4|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:S2|divF:DIV4  ; work         ;
 ;       |divF:DIV1|          ; 44 (44)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|divF:DIV1              ; work         ;
-;       |divF:DIV2|          ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|divF:DIV2              ; work         ;
 ;    |decodificador:D1|      ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D1                     ; work         ;
 ;    |decodificador:D2|      ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D2                     ; work         ;
 ;    |decodificador:D3|      ; 14 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D3                     ; work         ;
@@ -451,7 +449,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1878  ;
+; Total registers                              ; 1852  ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 68    ;
@@ -531,9 +529,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; alarme:A1|contador:H2|divF:DIV1|contagem[0]      ; 2       ;
 ; horario:H1|contador:H2|divF:DIV1|contagem[0]     ; 2       ;
 ; cronometro:C1|contador:M2|divF:DIV1|contagem[0]  ; 2       ;
-; cronometro:C1|divF:DIV2|contagem[0]              ; 2       ;
 ; cronometro:C1|divF:DIV1|contagem[0]              ; 2       ;
-; Total number of inverted registers = 67          ;         ;
+; Total number of inverted registers = 66          ;         ;
 +--------------------------------------------------+---------+
 
 
@@ -542,7 +539,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |relogio|Mux7              ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |relogio|Mux3              ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |relogio|Mux19             ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
@@ -745,18 +742,6 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; clear           ; Input ; Info     ; Stuck at GND   ;
 ; enable          ; Input ; Info     ; Stuck at VCC   ;
 +-----------------+-------+----------+----------------+
-
-
-+-----------------------------------------------------+
-; Port Connectivity Checks: "cronometro:C1|divF:DIV2" ;
-+----------------+-------+----------+-----------------+
-; Port           ; Type  ; Severity ; Details         ;
-+----------------+-------+----------+-----------------+
-; divisor[31..1] ; Input ; Info     ; Stuck at GND    ;
-; divisor[0]     ; Input ; Info     ; Stuck at VCC    ;
-; clear          ; Input ; Info     ; Stuck at GND    ;
-; enable         ; Input ; Info     ; Stuck at VCC    ;
-+----------------+-------+----------+-----------------+
 
 
 +-------------------------------------------+
@@ -963,7 +948,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Jun  8 11:41:16 2018
+    Info: Processing started: Fri Jun  8 17:16:30 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off relogio -c contador
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file divF.vhd
@@ -1061,13 +1046,13 @@ Critical Warning (18061): Ignored Power-Up Level option on the following registe
     Critical Warning (18010): Register alarme:A1|MinHor[0] will power up to Low
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2830 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2795 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 6 input pins
     Info (21059): Implemented 45 output pins
-    Info (21061): Implemented 2779 logic cells
+    Info (21061): Implemented 2744 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 60 warnings
-    Info: Peak virtual memory: 636 megabytes
-    Info: Processing ended: Fri Jun  8 11:41:21 2018
+    Info: Peak virtual memory: 639 megabytes
+    Info: Processing ended: Fri Jun  8 17:16:35 2018
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 

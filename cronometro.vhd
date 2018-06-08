@@ -36,15 +36,25 @@ architecture cronometro of cronometro is
 	signal strtStop:std_logic:='0';
 	signal taNoModoCerto:std_logic:='0';
 begin		
+	process(modo,strt)
+		begin
+			if(modo=2) then 
+				taNoModoCerto<='1';
+				if(strt='0' and strt'EVENT) then
+					strtStop<=not strtStop;
+				end if;
+			else 
+				taNoModoCerto<='0';
+			end if;
+	end process;
 	miliSegundos1<=miliSegundos1Sig;
 	miliSegundos2<=miliSegundos2Sig;
 	Segundos1<=Segundos1Sig;
 	Segundos2<=Segundos2Sig;
 	Minutos1<=Minutos1Sig;
 	Minutos2<=Minutos2Sig;
-	DIV2: divF port map(strt,1,'0',strtStop,'1');
 	DIV1: divF port map(clock1,249999,'0',clock_use,'1');
-	MS1: contador port map(clock_use and strtStop,enable1,
+	MS1: contador port map(clock_use,tanoModoCerto and strtStop,
 	not zerar1,"1001",miliSegundos1Sig);
 	MS2: contador port map(miliSegundos1Sig(3),enable1,not zerar1,"1001",miliSegundos2Sig);
 	S1: contador port map(miliSegundos2Sig(3),enable1,not zerar1,"1001",Segundos1Sig);

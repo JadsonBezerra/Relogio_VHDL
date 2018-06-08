@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C35F672) Path("/home/jadson/work/20181/contador(2)/output_files/") File("contador.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C35F672) Path("/home/jadson/work/20181/CD/Relogio_VHDL/output_files/") File("contador.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
