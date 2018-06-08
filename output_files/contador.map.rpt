@@ -1,5 +1,5 @@
 Analysis & Synthesis report for contador
-Thu Jun  7 22:18:41 2018
+Fri Jun  8 11:41:21 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -18,38 +18,40 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  10. General Register Statistics
  11. Inverted Register Statistics
  12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Port Connectivity Checks: "alarme:A1|contador:H2"
- 14. Port Connectivity Checks: "alarme:A1|contador:H1"
- 15. Port Connectivity Checks: "alarme:A1|contador:M2"
- 16. Port Connectivity Checks: "alarme:A1|contador:M1"
- 17. Port Connectivity Checks: "alarme:A1|divF:DIV2"
- 18. Port Connectivity Checks: "alarme:A1|divF:DIV1"
- 19. Port Connectivity Checks: "alarme:A1"
- 20. Port Connectivity Checks: "cronometro:C1|contador:M2"
- 21. Port Connectivity Checks: "cronometro:C1|contador:M1"
- 22. Port Connectivity Checks: "cronometro:C1|contador:S2"
- 23. Port Connectivity Checks: "cronometro:C1|contador:S1"
- 24. Port Connectivity Checks: "cronometro:C1|contador:MS2"
- 25. Port Connectivity Checks: "cronometro:C1|contador:MS1"
- 26. Port Connectivity Checks: "cronometro:C1|divF:DIV1"
- 27. Port Connectivity Checks: "cronometro:C1|divF:DIV2"
- 28. Port Connectivity Checks: "cronometro:C1"
- 29. Port Connectivity Checks: "horario:H1|contador:H2"
- 30. Port Connectivity Checks: "horario:H1|contador:H1"
- 31. Port Connectivity Checks: "horario:H1|contador:M2"
- 32. Port Connectivity Checks: "horario:H1|contador:M1"
- 33. Port Connectivity Checks: "horario:H1|contador:S2"
- 34. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV4"
- 35. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV3"
- 36. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV2"
- 37. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV1"
- 38. Port Connectivity Checks: "horario:H1|contador:S1"
- 39. Port Connectivity Checks: "horario:H1|divF:DIV1"
- 40. Port Connectivity Checks: "horario:H1|divF:DIV2"
- 41. Port Connectivity Checks: "horario:H1|divF:DIV3"
- 42. Port Connectivity Checks: "horario:H1"
- 43. Elapsed Time Per Partition
- 44. Analysis & Synthesis Messages
+ 13. Port Connectivity Checks: "decodificador:D2"
+ 14. Port Connectivity Checks: "decodificador:D1"
+ 15. Port Connectivity Checks: "alarme:A1|contador:H2"
+ 16. Port Connectivity Checks: "alarme:A1|contador:H1"
+ 17. Port Connectivity Checks: "alarme:A1|contador:M2"
+ 18. Port Connectivity Checks: "alarme:A1|contador:M1"
+ 19. Port Connectivity Checks: "alarme:A1|divF:DIV2"
+ 20. Port Connectivity Checks: "alarme:A1|divF:DIV1"
+ 21. Port Connectivity Checks: "alarme:A1"
+ 22. Port Connectivity Checks: "cronometro:C1|contador:M2"
+ 23. Port Connectivity Checks: "cronometro:C1|contador:M1"
+ 24. Port Connectivity Checks: "cronometro:C1|contador:S2"
+ 25. Port Connectivity Checks: "cronometro:C1|contador:S1"
+ 26. Port Connectivity Checks: "cronometro:C1|contador:MS2"
+ 27. Port Connectivity Checks: "cronometro:C1|contador:MS1"
+ 28. Port Connectivity Checks: "cronometro:C1|divF:DIV1"
+ 29. Port Connectivity Checks: "cronometro:C1|divF:DIV2"
+ 30. Port Connectivity Checks: "cronometro:C1"
+ 31. Port Connectivity Checks: "horario:H1|contador:H2"
+ 32. Port Connectivity Checks: "horario:H1|contador:H1"
+ 33. Port Connectivity Checks: "horario:H1|contador:M2"
+ 34. Port Connectivity Checks: "horario:H1|contador:M1"
+ 35. Port Connectivity Checks: "horario:H1|contador:S2"
+ 36. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV4"
+ 37. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV3"
+ 38. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV2"
+ 39. Port Connectivity Checks: "horario:H1|contador:S1|divF:DIV1"
+ 40. Port Connectivity Checks: "horario:H1|contador:S1"
+ 41. Port Connectivity Checks: "horario:H1|divF:DIV1"
+ 42. Port Connectivity Checks: "horario:H1|divF:DIV2"
+ 43. Port Connectivity Checks: "horario:H1|divF:DIV3"
+ 44. Port Connectivity Checks: "horario:H1"
+ 45. Elapsed Time Per Partition
+ 46. Analysis & Synthesis Messages
 
 
 
@@ -75,13 +77,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jun  7 22:18:41 2018           ;
+; Analysis & Synthesis Status        ; Successful - Fri Jun  8 11:41:21 2018           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; contador                                        ;
 ; Top-level Entity Name              ; relogio                                         ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 2,788                                           ;
-;     Total combinational functions  ; 2,770                                           ;
+; Total logic elements               ; 2,777                                           ;
+;     Total combinational functions  ; 2,759                                           ;
 ;     Dedicated logic registers      ; 1,878                                           ;
 ; Total registers                    ; 1878                                            ;
 ; Total pins                         ; 51                                              ;
@@ -188,18 +190,19 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                              ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                       ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------+---------+
-; divF.vhd                         ; yes             ; User VHDL File  ; /home/jadson/work/20181/contador(2)/divF.vhd       ;         ;
-; contador.vhd                     ; yes             ; User VHDL File  ; /home/jadson/work/20181/contador(2)/contador.vhd   ;         ;
-; cronometro.vhd                   ; yes             ; User VHDL File  ; /home/jadson/work/20181/contador(2)/cronometro.vhd ;         ;
-; horario.vhd                      ; yes             ; User VHDL File  ; /home/jadson/work/20181/contador(2)/horario.vhd    ;         ;
-; alarme.vhd                       ; yes             ; User VHDL File  ; /home/jadson/work/20181/contador(2)/alarme.vhd     ;         ;
-; relogio.vhd                      ; yes             ; User VHDL File  ; /home/jadson/work/20181/contador(2)/relogio.vhd    ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                     ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                              ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
+; divF.vhd                         ; yes             ; User VHDL File  ; /home/jadson/work/20181/CD/Relogio_VHDL/divF.vhd          ;         ;
+; contador.vhd                     ; yes             ; User VHDL File  ; /home/jadson/work/20181/CD/Relogio_VHDL/contador.vhd      ;         ;
+; cronometro.vhd                   ; yes             ; User VHDL File  ; /home/jadson/work/20181/CD/Relogio_VHDL/cronometro.vhd    ;         ;
+; horario.vhd                      ; yes             ; User VHDL File  ; /home/jadson/work/20181/CD/Relogio_VHDL/horario.vhd       ;         ;
+; alarme.vhd                       ; yes             ; User VHDL File  ; /home/jadson/work/20181/CD/Relogio_VHDL/alarme.vhd        ;         ;
+; relogio.vhd                      ; yes             ; User VHDL File  ; /home/jadson/work/20181/CD/Relogio_VHDL/relogio.vhd       ;         ;
+; decodificador.vhd                ; yes             ; User VHDL File  ; /home/jadson/work/20181/CD/Relogio_VHDL/decodificador.vhd ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------------------+
@@ -207,16 +210,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-----------------------------------+
 ; Resource                                    ; Usage                             ;
 +---------------------------------------------+-----------------------------------+
-; Estimated Total logic elements              ; 2,788                             ;
+; Estimated Total logic elements              ; 2,777                             ;
 ;                                             ;                                   ;
-; Total combinational functions               ; 2770                              ;
+; Total combinational functions               ; 2759                              ;
 ; Logic element usage by number of LUT inputs ;                                   ;
-;     -- 4 input functions                    ; 725                               ;
-;     -- 3 input functions                    ; 219                               ;
-;     -- <=2 input functions                  ; 1826                              ;
+;     -- 4 input functions                    ; 727                               ;
+;     -- 3 input functions                    ; 210                               ;
+;     -- <=2 input functions                  ; 1822                              ;
 ;                                             ;                                   ;
 ; Logic elements by mode                      ;                                   ;
-;     -- normal mode                          ; 1071                              ;
+;     -- normal mode                          ; 1060                              ;
 ;     -- arithmetic mode                      ; 1699                              ;
 ;                                             ;                                   ;
 ; Total registers                             ; 1878                              ;
@@ -227,7 +230,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Embedded Multiplier 9-bit elements          ; 0                                 ;
 ; Maximum fan-out node                        ; cronometro:C1|contador:MS1|comb~0 ;
 ; Maximum fan-out                             ; 108                               ;
-; Total fan-out                               ; 12675                             ;
+; Total fan-out                               ; 12648                             ;
 ; Average fan-out                             ; 2.70                              ;
 +---------------------------------------------+-----------------------------------+
 
@@ -237,7 +240,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                           ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------+--------------+
-; |relogio                   ; 2770 (125)        ; 1878 (2)     ; 0           ; 0            ; 0       ; 0         ; 51   ; 0            ; |relogio                                      ; work         ;
+; |relogio                   ; 2759 (44)         ; 1878 (2)     ; 0           ; 0            ; 0       ; 0         ; 51   ; 0            ; |relogio                                      ; work         ;
 ;    |alarme:A1|             ; 682 (28)          ; 470 (5)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1                            ; work         ;
 ;       |contador:H1|        ; 152 (3)           ; 110 (2)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1|contador:H1                ; work         ;
 ;          |divF:DIV1|       ; 38 (38)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|alarme:A1|contador:H1|divF:DIV1      ; work         ;
@@ -293,6 +296,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |divF:DIV4|       ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|contador:S2|divF:DIV4  ; work         ;
 ;       |divF:DIV1|          ; 44 (44)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|divF:DIV1              ; work         ;
 ;       |divF:DIV2|          ; 37 (37)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|cronometro:C1|divF:DIV2              ; work         ;
+;    |decodificador:D1|      ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D1                     ; work         ;
+;    |decodificador:D2|      ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D2                     ; work         ;
+;    |decodificador:D3|      ; 14 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D3                     ; work         ;
+;    |decodificador:D4|      ; 14 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D4                     ; work         ;
+;    |decodificador:D5|      ; 14 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D5                     ; work         ;
+;    |decodificador:D6|      ; 14 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|decodificador:D6                     ; work         ;
 ;    |horario:H1|            ; 975 (13)          ; 692 (4)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|horario:H1                           ; work         ;
 ;       |contador:H1|        ; 152 (3)           ; 110 (2)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|horario:H1|contador:H1               ; work         ;
 ;          |divF:DIV1|       ; 38 (38)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |relogio|horario:H1|contador:H1|divF:DIV1     ; work         ;
@@ -473,7 +482,6 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; horario:H1|contador:S2|divF:DIV4|contagem[0]     ; 2       ;
 ; cronometro:C1|contador:MS2|divF:DIV2|contagem[0] ; 2       ;
 ; horario:H1|contador:S2|divF:DIV2|contagem[0]     ; 2       ;
-; horario:H1|divF:DIV1|contagem[0]                 ; 3       ;
 ; alarme:A1|contador:M1|divF:DIV2|contagem[0]      ; 2       ;
 ; horario:H1|contador:M1|divF:DIV2|contagem[0]     ; 2       ;
 ; cronometro:C1|contador:S1|divF:DIV2|contagem[0]  ; 2       ;
@@ -486,12 +494,13 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; alarme:A1|contador:M1|divF:DIV1|contagem[0]      ; 2       ;
 ; horario:H1|contador:M1|divF:DIV1|contagem[0]     ; 2       ;
 ; cronometro:C1|contador:S1|divF:DIV1|contagem[0]  ; 2       ;
-; cronometro:C1|contador:S2|divF:DIV2|contagem[0]  ; 2       ;
+; horario:H1|divF:DIV1|contagem[0]                 ; 3       ;
 ; alarme:A1|contador:M2|divF:DIV2|contagem[0]      ; 2       ;
 ; horario:H1|contador:M2|divF:DIV2|contagem[0]     ; 2       ;
-; cronometro:C1|contador:S2|divF:DIV4|contagem[0]  ; 2       ;
+; cronometro:C1|contador:S2|divF:DIV2|contagem[0]  ; 2       ;
 ; alarme:A1|contador:M2|divF:DIV4|contagem[0]      ; 2       ;
 ; horario:H1|contador:M2|divF:DIV4|contagem[0]     ; 2       ;
+; cronometro:C1|contador:S2|divF:DIV4|contagem[0]  ; 2       ;
 ; alarme:A1|contador:M2|divF:DIV3|contagem[0]      ; 2       ;
 ; horario:H1|contador:M2|divF:DIV3|contagem[0]     ; 2       ;
 ; cronometro:C1|contador:S2|divF:DIV3|contagem[0]  ; 2       ;
@@ -504,18 +513,18 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; alarme:A1|contador:H1|divF:DIV4|contagem[0]      ; 2       ;
 ; horario:H1|contador:H1|divF:DIV4|contagem[0]     ; 2       ;
 ; cronometro:C1|contador:M1|divF:DIV4|contagem[0]  ; 2       ;
-; cronometro:C1|contador:M1|divF:DIV3|contagem[0]  ; 2       ;
 ; alarme:A1|contador:H1|divF:DIV3|contagem[0]      ; 2       ;
 ; horario:H1|contador:H1|divF:DIV3|contagem[0]     ; 2       ;
+; cronometro:C1|contador:M1|divF:DIV3|contagem[0]  ; 2       ;
 ; alarme:A1|contador:H1|divF:DIV1|contagem[0]      ; 2       ;
 ; horario:H1|contador:H1|divF:DIV1|contagem[0]     ; 2       ;
 ; cronometro:C1|contador:M1|divF:DIV1|contagem[0]  ; 2       ;
-; cronometro:C1|contador:M2|divF:DIV2|contagem[0]  ; 2       ;
 ; alarme:A1|contador:H2|divF:DIV2|contagem[0]      ; 2       ;
 ; horario:H1|contador:H2|divF:DIV2|contagem[0]     ; 2       ;
-; cronometro:C1|contador:M2|divF:DIV4|contagem[0]  ; 2       ;
+; cronometro:C1|contador:M2|divF:DIV2|contagem[0]  ; 2       ;
 ; alarme:A1|contador:H2|divF:DIV4|contagem[0]      ; 2       ;
 ; horario:H1|contador:H2|divF:DIV4|contagem[0]     ; 2       ;
+; cronometro:C1|contador:M2|divF:DIV4|contagem[0]  ; 2       ;
 ; alarme:A1|contador:H2|divF:DIV3|contagem[0]      ; 2       ;
 ; horario:H1|contador:H2|divF:DIV3|contagem[0]     ; 2       ;
 ; cronometro:C1|contador:M2|divF:DIV3|contagem[0]  ; 2       ;
@@ -536,6 +545,24 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |relogio|Mux7              ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |relogio|Mux19             ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++----------------------------------------------+
+; Port Connectivity Checks: "decodificador:D2" ;
++-------+-------+----------+-------------------+
+; Port  ; Type  ; Severity ; Details           ;
++-------+-------+----------+-------------------+
+; pisca ; Input ; Info     ; Stuck at GND      ;
++-------+-------+----------+-------------------+
+
+
++----------------------------------------------+
+; Port Connectivity Checks: "decodificador:D1" ;
++-------+-------+----------+-------------------+
+; Port  ; Type  ; Severity ; Details           ;
++-------+-------+----------+-------------------+
+; pisca ; Input ; Info     ; Stuck at GND      ;
++-------+-------+----------+-------------------+
 
 
 +---------------------------------------------------+
@@ -926,7 +953,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -936,8 +963,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jun  7 22:18:35 2018
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off contador -c contador
+    Info: Processing started: Fri Jun  8 11:41:16 2018
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off relogio -c contador
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file divF.vhd
     Info (12022): Found design unit 1: divF-divF
@@ -957,27 +984,30 @@ Info (12021): Found 2 design units, including 1 entities, in source file alarme.
 Info (12021): Found 2 design units, including 1 entities, in source file relogio.vhd
     Info (12022): Found design unit 1: relogio-relogio
     Info (12023): Found entity 1: relogio
+Info (12021): Found 2 design units, including 1 entities, in source file decodificador.vhd
+    Info (12022): Found design unit 1: decodificador-decodificador
+    Info (12023): Found entity 1: decodificador
 Info (12127): Elaborating entity "relogio" for the top level hierarchy
-Warning (10492): VHDL Process Statement warning at relogio.vhd(107): signal "HorarioPiscarM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(108): signal "HorarioPiscarH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(110): signal "Segundos1SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(111): signal "Segundos2SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(112): signal "Minutos1SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(113): signal "Minutos2SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(114): signal "Horas1SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(115): signal "Horas2SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(117): signal "AlarmePiscarH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(118): signal "AlarmePiscarM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(122): signal "Minutos1SigAlarme" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(123): signal "Minutos2SigAlarme" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(124): signal "Horas1SigAlarme" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(125): signal "Horas2SigAlarme" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(130): signal "Segundos1SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(131): signal "Segundos2SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(132): signal "Minutos1SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(133): signal "Minutos2SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(134): signal "Horas1SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at relogio.vhd(135): signal "Horas2SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(112): signal "HorarioPiscarM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(113): signal "HorarioPiscarH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(115): signal "Segundos1SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(116): signal "Segundos2SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(117): signal "Minutos1SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(118): signal "Minutos2SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(119): signal "Horas1SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(120): signal "Horas2SigHorario" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(122): signal "AlarmePiscarH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(123): signal "AlarmePiscarM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(127): signal "Minutos1SigAlarme" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(128): signal "Minutos2SigAlarme" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(129): signal "Horas1SigAlarme" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(130): signal "Horas2SigAlarme" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(135): signal "Segundos1SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(136): signal "Segundos2SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(137): signal "Minutos1SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(138): signal "Minutos2SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(139): signal "Horas1SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at relogio.vhd(140): signal "Horas2SigCronometro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "horario" for hierarchy "horario:H1"
 Warning (10492): VHDL Process Statement warning at horario.vhd(55): signal "modo" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at horario.vhd(58): signal "clockSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
@@ -1019,6 +1049,7 @@ Info (10041): Inferred latch for "piscarH" at alarme.vhd(49)
 Info (10041): Inferred latch for "piscarM" at alarme.vhd(49)
 Info (10041): Inferred latch for "clockH" at alarme.vhd(49)
 Info (10041): Inferred latch for "clockM" at alarme.vhd(49)
+Info (12128): Elaborating entity "decodificador" for hierarchy "decodificador:D1"
 Warning (13012): Latch horario:H1|clockM has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal horario:H1|MinHor[1]
 Warning (13012): Latch alarme:A1|clockM has unsafe behavior
@@ -1030,14 +1061,14 @@ Critical Warning (18061): Ignored Power-Up Level option on the following registe
     Critical Warning (18010): Register alarme:A1|MinHor[0] will power up to Low
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2841 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2830 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 6 input pins
     Info (21059): Implemented 45 output pins
-    Info (21061): Implemented 2790 logic cells
+    Info (21061): Implemented 2779 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 60 warnings
-    Info: Peak virtual memory: 640 megabytes
-    Info: Processing ended: Thu Jun  7 22:18:41 2018
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Peak virtual memory: 636 megabytes
+    Info: Processing ended: Fri Jun  8 11:41:21 2018
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
 
 

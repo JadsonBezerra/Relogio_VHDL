@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu Jun  7 22:19:19 2018
+Fitter Status : Successful - Fri Jun  8 11:41:51 2018
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : contador
 Top-level Entity Name : relogio
 Family : Cyclone II
 Device : EP2C35F672C6
 Timing Models : Final
-Total logic elements : 2,775 / 33,216 ( 8 % )
-    Total combinational functions : 2,770 / 33,216 ( 8 % )
+Total logic elements : 2,761 / 33,216 ( 8 % )
+    Total combinational functions : 2,759 / 33,216 ( 8 % )
     Dedicated logic registers : 1,878 / 33,216 ( 6 % )
 Total registers : 1878
 Total pins : 51 / 475 ( 11 % )

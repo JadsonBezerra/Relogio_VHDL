@@ -59,7 +59,12 @@ architecture  relogio of relogio is
 			Minutos1:out std_logic_vector(3 downto 0);
 			Minutos2:out std_logic_vector(3 downto 0));
 			end component;
-	
+	component decodificador  is
+		port(Binario: in std_logic_vector(3 downto 0);
+				LedHex:out std_logic_vector (6 downto 0);
+				pisca:in std_logic);
+		end component;
+		
 	signal EscolhaModo:integer range 0 to 2:= 0;
 	signal Segundos1Sig: std_logic_vector(3 downto 0);
 	signal Segundos2Sig: std_logic_vector(3 downto 0);
@@ -154,205 +159,11 @@ architecture  relogio of relogio is
 		horas1SigAlarme,horas2SigAlarme,
 		AlarmePiscarH,AlarmePiscarM,taNaHora);
 		
-		--Logica dos Displays
-	Segundos1(0)<=(not Segundos1Sig(3) and Segundos1Sig(2) and not Segundos1Sig(0)) or 
-	(not Segundos1Sig(3) and not Segundos1Sig(2) and not Segundos1Sig(1) and Segundos1Sig(0)) or
-	(Segundos1Sig(3) and not Segundos1Sig(2) and Segundos1Sig(1) and Segundos1Sig(0)) or 
-	(Segundos1Sig(2) and Segundos1Sig(1) and not Segundos1Sig(0));
-	
-	Segundos1(1)<=(not Segundos1Sig(3) and Segundos1Sig(2) and not Segundos1Sig(1) and Segundos1Sig(0)) or 
-	(Segundos1Sig(3) and Segundos1Sig(2) and Segundos1Sig(1) and Segundos1Sig(0)) or
-	(not Segundos1Sig(3) and Segundos1Sig(2) and Segundos1Sig(1) and not Segundos1Sig(0));
-	
-	Segundos1(2)<=(Segundos1Sig(3) and Segundos1Sig(2) and not Segundos1Sig(1) and not Segundos1Sig(0)) or 
-	(not Segundos1Sig(3) and not Segundos1Sig(2) and Segundos1Sig(1) and not Segundos1Sig(0));
-	
-	Segundos1(3)<=(not Segundos1Sig(2) and not Segundos1Sig(1) and Segundos1Sig(0)) or 
-	(not Segundos1Sig(3) and Segundos1Sig(2) and not Segundos1Sig(1) and not Segundos1Sig(0)) or
-	(Segundos1Sig(3) and not Segundos1Sig(2) and Segundos1Sig(0)) or 
-	(not Segundos1Sig(3) and Segundos1Sig(2) and Segundos1Sig(1) and Segundos1Sig(0)) or 
-	(Segundos1Sig(3) and Segundos1Sig(2) and Segundos1Sig(1) and not Segundos1Sig(0));
-	
-	Segundos1(4)<=(Segundos1Sig(0)) or 
-	(not Segundos1Sig(3) and Segundos1Sig(2) and not Segundos1Sig(1)) or
-	(Segundos1Sig(3) and Segundos1Sig(2) and Segundos1Sig(1));
-	
-	Segundos1(5)<=(not Segundos1Sig(3) and not Segundos1Sig(2) and Segundos1Sig(0)) or 
-	(not Segundos1Sig(3) and not Segundos1Sig(2) and Segundos1Sig(1)) or
-	(not Segundos1Sig(3) and Segundos1Sig(1) and Segundos1Sig(0)) or 
-	(Segundos1Sig(3) and Segundos1Sig(2) and not Segundos1Sig(1)) or
-	(not Segundos1Sig(2) and Segundos1Sig(1) and Segundos1Sig(0));	
-	
-	Segundos1(6)<= (not Segundos1Sig(3) and not Segundos1Sig(2) and not Segundos1Sig(1)) or
-	(not Segundos1Sig(3) and Segundos1Sig(2) and Segundos1Sig(1) and Segundos1Sig(0)) or
-	(Segundos1Sig(3) and not Segundos1Sig(2) and Segundos1Sig(1));
-	
-	
-	
-	Segundos2(0)<=(not Segundos2Sig(3) and Segundos2Sig(2) and not Segundos2Sig(0)) or 
-	(not Segundos2Sig(3) and not Segundos2Sig(2) and not Segundos2Sig(1) and Segundos2Sig(0)) or
-	(Segundos2Sig(3) and not Segundos2Sig(2) and Segundos2Sig(1) and Segundos2Sig(0)) or 
-	(Segundos2Sig(2) and Segundos2Sig(1) and not Segundos2Sig(0));
-	
-	Segundos2(1)<=(not Segundos2Sig(3) and Segundos2Sig(2) and not Segundos2Sig(1) and Segundos2Sig(0)) or 
-	(Segundos2Sig(3) and Segundos2Sig(2) and Segundos2Sig(1) and Segundos2Sig(0)) or
-	(not Segundos2Sig(3) and Segundos2Sig(2) and Segundos2Sig(1) and not Segundos2Sig(0));
-	
-	Segundos2(2)<=(Segundos2Sig(3) and Segundos2Sig(2) and not Segundos2Sig(1) and not Segundos2Sig(0)) or 
-	(not Segundos2Sig(3) and not Segundos2Sig(2) and Segundos2Sig(1) and not Segundos2Sig(0));
-	
-	Segundos2(3)<=(not Segundos2Sig(2) and not Segundos2Sig(1) and Segundos2Sig(0)) or 
-	(not Segundos2Sig(3) and Segundos2Sig(2) and not Segundos2Sig(1) and not Segundos2Sig(0)) or
-	(Segundos2Sig(3) and not Segundos2Sig(2) and Segundos2Sig(0)) or 
-	(not Segundos2Sig(3) and Segundos2Sig(2) and Segundos2Sig(1) and Segundos2Sig(0)) or 
-	(Segundos2Sig(3) and Segundos2Sig(2) and Segundos2Sig(1) and not Segundos2Sig(0));
-	
-	Segundos2(4)<=(Segundos2Sig(0)) or 
-	(not Segundos2Sig(3) and Segundos2Sig(2) and not Segundos2Sig(1)) or
-	(Segundos2Sig(3) and Segundos2Sig(2) and Segundos2Sig(1));
-	
-	Segundos2(5)<=(not Segundos2Sig(3) and not Segundos2Sig(2) and Segundos2Sig(0)) or 
-	(not Segundos2Sig(3) and not Segundos2Sig(2) and Segundos2Sig(1)) or
-	(not Segundos2Sig(3) and Segundos2Sig(1) and Segundos2Sig(0)) or 
-	(Segundos2Sig(3) and Segundos2Sig(2) and not Segundos2Sig(1)) or
-	(not Segundos2Sig(2) and Segundos2Sig(1) and Segundos2Sig(0));	
-	
-	Segundos2(6)<= (not Segundos2Sig(3) and not Segundos2Sig(2) and not Segundos2Sig(1)) or
-	(not Segundos2Sig(3) and Segundos2Sig(2) and Segundos2Sig(1) and Segundos2Sig(0)) or
-	(Segundos2Sig(3) and not Segundos2Sig(2) and Segundos2Sig(1));
-	
+		D1: decodificador port map(Segundos1Sig,Segundos1,'0');
+		D2: decodificador port map(Segundos2Sig,Segundos2,'0');
+		D3: decodificador port map(Minutos1Sig,Minutos1,not piscadorM);
+		D4: decodificador port map(Minutos2Sig,Minutos2,not piscadorM);
+		D5: decodificador port map(horas1Sig,horas1,not piscadorH);
+		D6: decodificador port map(horas2Sig,horas2,not piscadorH);
 		
-		--Logica dos Displays
-	Minutos1(0)<= ((not Minutos1Sig(3) and Minutos1Sig(2) and not Minutos1Sig(0)) or 
-	(not Minutos1Sig(3) and not Minutos1Sig(2) and not Minutos1Sig(1) and Minutos1Sig(0)) or
-	(Minutos1Sig(3) and not Minutos1Sig(2) and Minutos1Sig(1) and Minutos1Sig(0)) or 
-	(Minutos1Sig(2) and Minutos1Sig(1) and not Minutos1Sig(0)) ) and piscadorM;
-	
-	Minutos1(1)<= ((not Minutos1Sig(3) and Minutos1Sig(2) and not Minutos1Sig(1) and Minutos1Sig(0)) or 
-	(Minutos1Sig(3) and Minutos1Sig(2) and Minutos1Sig(1) and Minutos1Sig(0)) or
-	(not Minutos1Sig(3) and Minutos1Sig(2) and Minutos1Sig(1) and not Minutos1Sig(0)))  and piscadorM;
-	
-	Minutos1(2)<= ((Minutos1Sig(3) and Minutos1Sig(2) and not Minutos1Sig(1) and not Minutos1Sig(0)) or 
-	(not Minutos1Sig(3) and not Minutos1Sig(2) and Minutos1Sig(1) and not Minutos1Sig(0))  ) and piscadorM;
-	
-	Minutos1(3)<= ((not Minutos1Sig(2) and not Minutos1Sig(1) and Minutos1Sig(0)) or 
-	(not Minutos1Sig(3) and Minutos1Sig(2) and not Minutos1Sig(1) and not Minutos1Sig(0)) or
-	(Minutos1Sig(3) and not Minutos1Sig(2) and Minutos1Sig(0)) or 
-	(not Minutos1Sig(3) and Minutos1Sig(2) and Minutos1Sig(1) and Minutos1Sig(0)) or 
-	(Minutos1Sig(3) and Minutos1Sig(2) and Minutos1Sig(1) and not Minutos1Sig(0)))  and piscadorM;
-	
-	Minutos1(4)<= ((Minutos1Sig(0)) or 
-	(not Minutos1Sig(3) and Minutos1Sig(2) and not Minutos1Sig(1)) or
-	(Minutos1Sig(3) and Minutos1Sig(2) and Minutos1Sig(1)))  and piscadorM;
-	
-	Minutos1(5)<= ((not Minutos1Sig(3) and not Minutos1Sig(2) and Minutos1Sig(0)) or 
-	(not Minutos1Sig(3) and not Minutos1Sig(2) and Minutos1Sig(1)) or
-	(not Minutos1Sig(3) and Minutos1Sig(1) and Minutos1Sig(0)) or 
-	(Minutos1Sig(3) and Minutos1Sig(2) and not Minutos1Sig(1)) or
-	(not Minutos1Sig(2) and Minutos1Sig(1) and Minutos1Sig(0))  ) and piscadorM;	
-	
-	Minutos1(6)<=  ((not Minutos1Sig(3) and not Minutos1Sig(2) and not Minutos1Sig(1)) or
-	(not Minutos1Sig(3) and Minutos1Sig(2) and Minutos1Sig(1) and Minutos1Sig(0)) or
-	(Minutos1Sig(3) and not Minutos1Sig(2) and Minutos1Sig(1))  ) and piscadorM;
-	
-	
-	
-	Minutos2(0)<= ((not Minutos2Sig(3) and Minutos2Sig(2) and not Minutos2Sig(0)) or 
-	(not Minutos2Sig(3) and not Minutos2Sig(2) and not Minutos2Sig(1) and Minutos2Sig(0)) or
-	(Minutos2Sig(3) and not Minutos2Sig(2) and Minutos2Sig(1) and Minutos2Sig(0)) or 
-	(Minutos2Sig(2) and Minutos2Sig(1) and not Minutos2Sig(0))  ) and piscadorM;
-	
-	Minutos2(1)<= ((not Minutos2Sig(3) and Minutos2Sig(2) and not Minutos2Sig(1) and Minutos2Sig(0)) or 
-	(Minutos2Sig(3) and Minutos2Sig(2) and Minutos2Sig(1) and Minutos2Sig(0)) or
-	(not Minutos2Sig(3) and Minutos2Sig(2) and Minutos2Sig(1) and not Minutos2Sig(0))  ) and piscadorM;
-	
-	Minutos2(2)<= ((Minutos2Sig(3) and Minutos2Sig(2) and not Minutos2Sig(1) and not Minutos2Sig(0)) or 
-	(not Minutos2Sig(3) and not Minutos2Sig(2) and Minutos2Sig(1) and not Minutos2Sig(0)) ) and piscadorM;
-	
-	Minutos2(3)<= ((not Minutos2Sig(2) and not Minutos2Sig(1) and Minutos2Sig(0)) or 
-	(not Minutos2Sig(3) and Minutos2Sig(2) and not Minutos2Sig(1) and not Minutos2Sig(0)) or
-	(Minutos2Sig(3) and not Minutos2Sig(2) and Minutos2Sig(0)) or 
-	(not Minutos2Sig(3) and Minutos2Sig(2) and Minutos2Sig(1) and Minutos2Sig(0)) or 
-	(Minutos2Sig(3) and Minutos2Sig(2) and Minutos2Sig(1) and not Minutos2Sig(0)) )  and piscadorM;
-	
-	Minutos2(4)<= ((Minutos2Sig(0)) or 
-	(not Minutos2Sig(3) and Minutos2Sig(2) and not Minutos2Sig(1)) or
-	(Minutos2Sig(3) and Minutos2Sig(2) and Minutos2Sig(1)) )  and piscadorM;
-	
-	Minutos2(5)<= ((not Minutos2Sig(3) and not Minutos2Sig(2) and Minutos2Sig(0)) or 
-	(not Minutos2Sig(3) and not Minutos2Sig(2) and Minutos2Sig(1)) or
-	(not Minutos2Sig(3) and Minutos2Sig(1) and Minutos2Sig(0)) or 
-	(Minutos2Sig(3) and Minutos2Sig(2) and not Minutos2Sig(1)) or
-	(not Minutos2Sig(2) and Minutos2Sig(1) and Minutos2Sig(0))  ) and piscadorM;	
-	
-	Minutos2(6)<= ((not Minutos2Sig(3) and not Minutos2Sig(2) and not Minutos2Sig(1)) or
-	(not Minutos2Sig(3) and Minutos2Sig(2) and Minutos2Sig(1) and Minutos2Sig(0)) or
-	(Minutos2Sig(3) and not Minutos2Sig(2) and Minutos2Sig(1))  ) and piscadorM;
-	
-	
-		--Horas
-Horas1(0)<= ((not Horas1Sig(3) and Horas1Sig(2) and not Horas1Sig(0)) or 
-	(not Horas1Sig(3) and not Horas1Sig(2) and not Horas1Sig(1) and Horas1Sig(0)) or
-	(Horas1Sig(3) and not Horas1Sig(2) and Horas1Sig(1) and Horas1Sig(0)) or 
-	(Horas1Sig(2) and Horas1Sig(1) and not Horas1Sig(0)) ) and piscadorH;
-	
-	Horas1(1)<=( (not Horas1Sig(3) and Horas1Sig(2) and not Horas1Sig(1) and Horas1Sig(0)) or 
-	(Horas1Sig(3) and Horas1Sig(2) and Horas1Sig(1) and Horas1Sig(0)) or
-	(not Horas1Sig(3) and Horas1Sig(2) and Horas1Sig(1) and not Horas1Sig(0)) ) and piscadorH;
-	
-	Horas1(2)<= ((Horas1Sig(3) and Horas1Sig(2) and not Horas1Sig(1) and not Horas1Sig(0)) or 
-	(not Horas1Sig(3) and not Horas1Sig(2) and Horas1Sig(1) and not Horas1Sig(0)) ) and piscadorH;
-	
-	Horas1(3)<= ((not Horas1Sig(2) and not Horas1Sig(1) and Horas1Sig(0)) or 
-	(not Horas1Sig(3) and Horas1Sig(2) and not Horas1Sig(1) and not Horas1Sig(0)) or
-	(Horas1Sig(3) and not Horas1Sig(2) and Horas1Sig(0)) or 
-	(not Horas1Sig(3) and Horas1Sig(2) and Horas1Sig(1) and Horas1Sig(0)) or 
-	(Horas1Sig(3) and Horas1Sig(2) and Horas1Sig(1) and not Horas1Sig(0)) ) and piscadorH;
-	
-	Horas1(4)<= ((Horas1Sig(0)) or (not Horas1Sig(3) and Horas1Sig(2) and not Horas1Sig(1)) or
-	(Horas1Sig(3) and Horas1Sig(2) and Horas1Sig(1)) ) and piscadorH;
-	
-	Horas1(5)<= ((not Horas1Sig(3) and not Horas1Sig(2) and Horas1Sig(0)) or 
-	(not Horas1Sig(3) and not Horas1Sig(2) and Horas1Sig(1)) or
-	(not Horas1Sig(3) and Horas1Sig(1) and Horas1Sig(0)) or 
-	(Horas1Sig(3) and Horas1Sig(2) and not Horas1Sig(1)) or
-	(not Horas1Sig(2) and Horas1Sig(1) and Horas1Sig(0)) ) and piscadorH;	
-	
-	Horas1(6)<= ((not Horas1Sig(3) and not Horas1Sig(2) and not Horas1Sig(1)) or
-	(not Horas1Sig(3) and Horas1Sig(2) and Horas1Sig(1) and Horas1Sig(0)) or
-	(Horas1Sig(3) and not Horas1Sig(2) and Horas1Sig(1)) ) and piscadorH;
-	
-	
-	
-	Horas2(0)<= ((not Horas2Sig(3) and Horas2Sig(2) and not Horas2Sig(0)) or 
-	(not Horas2Sig(3) and not Horas2Sig(2) and not Horas2Sig(1) and Horas2Sig(0)) or
-	(Horas2Sig(3) and not Horas2Sig(2) and Horas2Sig(1) and Horas2Sig(0)) or 
-	(Horas2Sig(2) and Horas2Sig(1) and not Horas2Sig(0)) ) and piscadorH;
-	
-	Horas2(1)<= ((not Horas2Sig(3) and Horas2Sig(2) and not Horas2Sig(1) and Horas2Sig(0)) or 
-	(Horas2Sig(3) and Horas2Sig(2) and Horas2Sig(1) and Horas2Sig(0)) or
-	(not Horas2Sig(3) and Horas2Sig(2) and Horas2Sig(1) and not Horas2Sig(0)) ) and piscadorH;
-	
-	Horas2(2)<= ((Horas2Sig(3) and Horas2Sig(2) and not Horas2Sig(1) and not Horas2Sig(0)) or 
-	(not Horas2Sig(3) and not Horas2Sig(2) and Horas2Sig(1) and not Horas2Sig(0)) ) and piscadorH;
-	
-	Horas2(3)<= ((not Horas2Sig(2) and not Horas2Sig(1) and Horas2Sig(0)) or 
-	(not Horas2Sig(3) and Horas2Sig(2) and not Horas2Sig(1) and not Horas2Sig(0)) or
-	(Horas2Sig(3) and not Horas2Sig(2) and Horas2Sig(0)) or 
-	(not Horas2Sig(3) and Horas2Sig(2) and Horas2Sig(1) and Horas2Sig(0)) or 
-	(Horas2Sig(3) and Horas2Sig(2) and Horas2Sig(1) and not Horas2Sig(0)) ) and piscadorH;
-	
-	Horas2(4)<= ((Horas2Sig(0)) or 
-	(not Horas2Sig(3) and Horas2Sig(2) and not Horas2Sig(1)) or
-	(Horas2Sig(3) and Horas2Sig(2) and Horas2Sig(1)) ) and piscadorH;
-	
-	Horas2(5)<= ((not Horas2Sig(3) and not Horas2Sig(2) and Horas2Sig(0)) or 
-	(not Horas2Sig(3) and not Horas2Sig(2) and Horas2Sig(1)) or
-	(not Horas2Sig(3) and Horas2Sig(1) and Horas2Sig(0)) or 
-	(Horas2Sig(3) and Horas2Sig(2) and not Horas2Sig(1)) or
-	(not Horas2Sig(2) and Horas2Sig(1) and Horas2Sig(0)) ) and piscadorH;	
-	
-	Horas2(6)<= ((not Horas2Sig(3) and not Horas2Sig(2) and not Horas2Sig(1)) or
-	(not Horas2Sig(3) and Horas2Sig(2) and Horas2Sig(1) and Horas2Sig(0)) or
-	(Horas2Sig(3) and not Horas2Sig(2) and Horas2Sig(1)) ) and piscadorH;
 end relogio;
