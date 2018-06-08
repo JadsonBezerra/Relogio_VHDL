@@ -1,0 +1,49 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity horario is 
+	port (clock1,enable1,zerar1 : in std_logic;
+			Segundos1:out std_logic_vector(3 downto 0);
+			Segundos2:out std_logic_vector(3 downto 0);
+			Minutos1:out std_logic_vector(3 downto 0);
+			Minutos2:out std_logic_vector(3 downto 0);
+			Horas1:out std_logic_vector(3 downto 0);
+			Horas2:out std_logic_vector(3 downto 0));
+			end horario;
+			
+architecture horario of horario is
+	component contador is 
+	port (clock,enable,zerar : in std_logic;
+			max: in std_logic_vector(3 downto 0);
+			cont:out std_logic_vector(3 downto 0));
+	end component;
+	component divF is 
+	port (clock_in:in std_logic;
+			divisor: in integer;
+			clear: in std_logic;
+			clock_out: out std_logic);
+	end component;
+	signal clock_use: std_logic;
+	signal Segundos1Sig: std_logic_vector(3 downto 0);
+	signal Segundos2Sig: std_logic_vector(3 downto 0);
+	signal Minutos1Sig: std_logic_vector(3 downto 0);
+	signal Minutos2Sig: std_logic_vector(3 downto 0);
+	signal Horas1Sig: std_logic_vector(3 downto 0);
+	signal Horas2Sig: std_logic_vector(3 downto 0);
+	signal reset:std_logic:='0';
+begin
+	Segundos1<=Segundos1Sig;
+	Segundos2<=Segundos2Sig;
+	Minutos1<=Minutos1Sig;
+	Minutos2<=Minutos2Sig;
+	Horas1<=Horas1Sig;
+	Horas2<=Horas2Sig;
+	DIV1: divF port map(clock1,12500000,not zerar1,clock_use);
+	S1: contador port map(clock_use,enable1,zerar1,"1001",Segundos1Sig);
+	S2: contador port map(Segundos1Sig(3),enable1,zerar1,"0101",Segundos2Sig);
+	M1: contador port map(Segundos2Sig(3),enable1,zerar1,"1001",Minutos1Sig);
+	M2: contador port map(Minutos1Sig(3),enable1,zerar1,"0101",Minutos2Sig);
+	H1: contador port map(Minutos2Sig(2),enable1,zerar1,"1001",Horas1Sig);
+	H2: contador port map(Horas1Sig(3),enable1,zerar1,"0010",Horas2Sig);
+
+end horario;

@@ -1,0 +1,75 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity alarme is
+	port (clock1,enable1,zerar1,config,strt,set : in std_logic;
+			Minutos1:in std_logic_vector(3 downto 0);
+			Minutos2:in std_logic_vector(3 downto 0);
+			Horas1:in std_logic_vector(3 downto 0);
+			Horas2:in std_logic_vector(3 downto 0));
+			taNaHora: out std_logic;
+			end alarme;
+			
+architecture alarme of alarme is
+	component contador is 
+	port (clock,enable,zerar : in std_logic;
+			max : in std_logic_vector(3 downto 0);
+			cont:out std_logic_vector(3 downto 0));
+	end component;
+	
+	component divF is 
+	port (clock_in:in std_logic;
+			divisor: in integer;
+			clear: in std_logic;
+			clock_out: out std_logic);
+	end component;
+	
+	signal Minutos1Sig: std_logic_vector(3 downto 0);
+	signal Minutos2Sig: std_logic_vector(3 downto 0);
+	signal Horas1Sig: std_logic_vector(3 downto 0);
+	signal Horas2Sig: std_logic_vector(3 downto 0);
+	signal MinHor: integer:=2;
+	signal reset: std_logic:='0';
+	signal clockM: std_logic;
+	signal clockH: std_logic;v
+	
+	begin
+		process(config,MinHor,clock1)
+		begin
+		case MinHor is
+			when 0 =>
+				clockM<=strt;
+				clockH<='1';
+			when 1 =>
+				clockM<='1';
+				clockH<=strt;
+			when 2=>
+				clockM<='1'
+				clockH<='1'
+		end case;
+		if config='1' then 
+			minHor<=0;
+		elsif(set='0' and set'EVENT) then
+			if(Horas2Sig="0010" and Horas1Sig="0100") then 
+					reset <='1';
+				end if;
+			if MinHor = 2 then 
+				MinHor<=2;
+			else 
+				MinHor <= MinHor + 1;
+			end if;
+		elsif(set='1' and set'EVENT) then
+			resetaux<=not reset;
+		end if;
+	end process;
+	process(clock1)
+		begin
+			if(clock1='0' and clock1'EVENT) then 
+				if(Horas2Sig=Horas2 and Horas1Sig=Horas1 and Minutos2Sig=Minutos2 and Minutos1Sig=Minutos1) then 
+					taNaHora <='1';
+				else
+					taNaHora<='0';
+				end if;
+			end if;
+		end process;
+end alarme;

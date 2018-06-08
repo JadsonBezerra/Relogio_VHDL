@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity cronometro is 
+	port (clock,enable,zerar : in std_logic;
+			cont:out std_logic_vector(3 downto 0));
+			end cronometro;
+			
+architecture cronometro of cronometro is
+	component contador is 
+	port (clock,enable,zerar : in std_logic;
+			max: in std_logic_vector(3 downto 0);
+			cont:out std_logic_vector(3 downto 0));
+	end component;
+	component divF is 
+	port (clock_in:in std_logic;
+			divisor: in integer;
+			clear: in std_logic;
+			clock_out: out std_logic);
+	end component;
+	signal contSignal: std_logic_vector(3 downto 0);
+	signal reset:std_logic:='0';
+begin
+	T1:contador(clock,enable,zerar,"1001",cont);
+end cronometro;

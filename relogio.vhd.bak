@@ -1,0 +1,109 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity relogio is 
+	port (clock1,enable1,modo,reset,config,strt,set : in std_logic;
+			Segundos1:out std_logic_vector(6 downto 0);
+			Segundos2:out std_logic_vector(6 downto 0);
+			Minutos1:out std_logic_vector(6 downto 0);
+			Minutos2:out std_logic_vector(6 downto 0);
+			Horas1:out std_logic_vector(6 downto 0);
+			Horas2:out std_logic_vector(6 downto 0));
+			end relogio;
+			
+architecture  relogio of relogio is
+	component horario is
+		port (clock1,enable1,zerar1,config,strt,set : in std_logic;
+			Segundos1:out std_logic_vector(3 downto 0);
+			Segundos2:out std_logic_vector(3 downto 0);
+			Minutos1:out std_logic_vector(3 downto 0);
+			Minutos2:out std_logic_vector(3 downto 0);
+			Horas1:out std_logic_vector(3 downto 0);
+			Horas2:out std_logic_vector(3 downto 0));
+			end component;
+			
+	component alarme is 
+		port (clock1,enable1,zerar1,config,strt,set : in std_logic;
+			Minutos1:in std_logic_vector(3 downto 0);
+			Minutos2:in std_logic_vector(3 downto 0);
+			Horas1:in std_logic_vector(3 downto 0);
+			Horas2:in std_logic_vector(3 downto 0);
+			taNaHora: out std_logic);
+			end component;
+			
+	component cronometro is
+		port (clock1,enable1,zerar1 : in std_logic;
+			miliSegundos1:out std_logic_vector(3 downto 0);
+			miliSegundos2:out std_logic_vector(3 downto 0);
+			Segundos1:out std_logic_vector(3 downto 0);
+			Segundos2:out std_logic_vector(3 downto 0);
+			Minutos1:out std_logic_vector(3 downto 0);
+			Minutos2:out std_logic_vector(3 downto 0));
+			end component;
+	
+	signal EscolhaModo:integer range 0 to 2:= 0;
+	signal Segundos1Sig: std_logic_vector(3 downto 0);
+	signal Segundos2Sig: std_logic_vector(3 downto 0);
+	signal Minutos1Sig: std_logic_vector(3 downto 0);
+	signal Minutos2Sig: std_logic_vector(3 downto 0);
+	signal Horas1Sig: std_logic_vector(3 downto 0);
+	signal Horas2Sig: std_logic_vector(3 downto 0);
+	signal Segundos1SigHorario: std_logic_vector(3 downto 0);
+	signal Segundos2SigHorario: std_logic_vector(3 downto 0);
+	signal Minutos1SigHorario: std_logic_vector(3 downto 0);
+	signal Minutos2SigHorario: std_logic_vector(3 downto 0);
+	signal Horas1SigHorario: std_logic_vector(3 downto 0);
+	signal Horas2SigHorario: std_logic_vector(3 downto 0);
+	signal Segundos1SigCronometro: std_logic_vector(3 downto 0);
+	signal Segundos2SigCronometro: std_logic_vector(3 downto 0);
+	signal Minutos1SigCronometro: std_logic_vector(3 downto 0);
+	signal Minutos2SigCronometro: std_logic_vector(3 downto 0);
+	signal Horas1SigCronometro: std_logic_vector(3 downto 0);
+	signal Horas2SigCronometro: std_logic_vector(3 downto 0);
+	signal Minutos1SigAlarme: std_logic_vector(3 downto 0);
+	signal Minutos2SigAlarme: std_logic_vector(3 downto 0);
+	signal Horas1SigAlarme: std_logic_vector(3 downto 0);
+	signal Horas2SigAlarme: std_logic_vector(3 downto 0);
+	
+	
+	begin
+		process(clock1,escolhaModo,modo)
+			if(modo='0' and modo'EVENT) then 
+				if(escolhaModo=2) then
+					escolhaModo<=0;
+				else
+					escolhaModo<=escolhaModo+1;
+				end if;
+			end if;
+		case escolhaModo is
+			when 0=>
+				segundos1Sig<=segundos1SigHorario;
+				segundos2Sig<=segundos2SigHorario;
+				minutos1Sig<=minutos1SigHorario;
+				minutos2Sig<=minutos2SigHorario;
+				horas1Sig<=horas1SigHorario;
+				horas2Sig<=horas2SigHorario;
+			when 1=>
+				segundos1Sig<=segundos1SigAlarme;
+				segundos2Sig<=segundos2SigAlarme;
+				minutos1Sig<=minutos1SigAlarme;
+				minutos2Sig<=minutos2SigAlarme;
+				horas1Sig<=horas1SigAlarme;
+				horas2Sig<=horas2SigAlarme;
+			when 2=>
+				segundos1Sig<="0000";
+				segundos2Sig<="0000";
+				minutos1Sig<=minutos1SigCronometro;
+				minutos2Sig<=minutos2SigCronometro;
+				horas1Sig<=horas1SigCronometro;
+				horas2Sig<=horas2SigCronometro;
+			end case;
+		end process;
+		
+		H1: horario port map(clock1,enable1,reset,config,strt,set,
+		segundos1SigHorario,segundos2SigHorario,minutos1SigHorario,minutos2SigHorario,horas1SigHorario,horas2SigHorario);
+		
+		C1: cronometro port map((clock1,enable1,reset,config,strt,set,
+		segundos1SigHorario,segundos2SigHorario,minutos1SigHorario,minutos2SigHorario,horas1SigHorario,horas2SigHorario);)
+		
+end relogio;
