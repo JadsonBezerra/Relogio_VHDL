@@ -44,7 +44,8 @@ architecture alarme of alarme is
 	signal acabou: std_logic;
 	signal piscadorM: std_logic:='1';
 	signal piscadorH: std_logic:='1';
-	signal enableS,enableH,enableM: std_logic;
+	signal enableH,enableM: std_logic;
+	signal ativado: std_logic:='0';
 	begin
 		process(config,modo,clock1)
 		begin
@@ -86,6 +87,9 @@ architecture alarme of alarme is
 	end process;
 	process(clock1)
 		begin
+		if(modo=1) then 
+			tanaHora<=ativado;
+		else
 			if(clock1='0' and clock1'EVENT) then 
 				if reset= '1' then
 					reset<='0';
@@ -99,7 +103,18 @@ architecture alarme of alarme is
 			elsif(clock1='1' and clock1'EVENT) then
 				resetaux<= reset;
 			end if;
+		end if;
 		end process;
+	
+	process(config,zerar1)
+		begin
+			if(config='1') then 
+				if(zerar1='0' and zerar1'EVENT) then
+					ativado<=not ativado;
+				end if;
+			end if;
+	end process;
+		
 	acabou<= reset and not resetaux;
 	DIV1: divF port map(clock1,50000000,'0',piscadorH,'1');
 	DIV2: divF port map(clock1,50000000,'0',piscadorM,'1');

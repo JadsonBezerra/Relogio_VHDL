@@ -2,529 +2,529 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow Model Setup 'horario:H1|contador:H1|divF:DIV3|estado'
-Slack : -5.523
-TNS   : -144.843
-
-Type  : Slow Model Setup 'cronometro:C1|contador:MS1|divF:DIV1|estado'
-Slack : -5.484
-TNS   : -146.586
-
 Type  : Slow Model Setup 'horario:H1|contador:H1|divF:DIV2|estado'
-Slack : -5.416
-TNS   : -142.686
+Slack : -5.825
+TNS   : -148.975
 
-Type  : Slow Model Setup 'alarme:A1|contador:M2|divF:DIV1|estado'
-Slack : -5.363
-TNS   : -139.817
-
-Type  : Slow Model Setup 'horario:H1|contador:H1|divF:DIV1|estado'
-Slack : -5.317
-TNS   : -135.628
-
-Type  : Slow Model Setup 'cronometro:C1|contador:MS1|divF:DIV2|estado'
-Slack : -5.260
-TNS   : -137.564
-
-Type  : Slow Model Setup 'cronometro:C1|contador:MS1|divF:DIV3|estado'
-Slack : -5.202
-TNS   : -134.519
-
-Type  : Slow Model Setup 'horario:H1|contador:S2|divF:DIV3|estado'
-Slack : -5.194
-TNS   : -129.529
-
-Type  : Slow Model Setup 'alarme:A1|contador:M2|divF:DIV2|estado'
-Slack : -5.137
-TNS   : -132.827
-
-Type  : Slow Model Setup 'horario:H1|contador:S2|divF:DIV2|estado'
-Slack : -5.132
-TNS   : -134.206
-
-Type  : Slow Model Setup 'alarme:A1|contador:M2|divF:DIV3|estado'
-Slack : -5.075
-TNS   : -132.766
-
-Type  : Slow Model Setup 'alarme:A1|contador:H2|divF:DIV2|estado'
-Slack : -4.892
-TNS   : -127.546
-
-Type  : Slow Model Setup 'alarme:A1|contador:H1|divF:DIV3|estado'
-Slack : -4.889
-TNS   : -126.591
-
-Type  : Slow Model Setup 'horario:H1|contador:M2|divF:DIV2|estado'
-Slack : -4.745
-TNS   : -117.627
-
-Type  : Slow Model Setup 'horario:H1|contador:S2|divF:DIV1|estado'
-Slack : -4.711
-TNS   : -125.597
-
-Type  : Slow Model Setup 'horario:H1|contador:H2|divF:DIV3|estado'
-Slack : -4.694
-TNS   : -122.755
-
-Type  : Slow Model Setup 'alarme:A1|contador:M1|divF:DIV3|estado'
-Slack : -4.648
-TNS   : -124.464
-
-Type  : Slow Model Setup 'alarme:A1|contador:M1|divF:DIV2|estado'
-Slack : -4.612
-TNS   : -123.790
-
-Type  : Slow Model Setup 'horario:H1|contador:M2|divF:DIV1|estado'
-Slack : -4.610
-TNS   : -121.754
-
-Type  : Slow Model Setup 'alarme:A1|contador:H1|divF:DIV2|estado'
-Slack : -4.606
-TNS   : -122.479
-
-Type  : Slow Model Setup 'alarme:A1|contador:H2|divF:DIV3|estado'
-Slack : -4.605
-TNS   : -123.180
-
-Type  : Slow Model Setup 'alarme:A1|contador:H2|divF:DIV1|estado'
-Slack : -4.579
-TNS   : -121.176
-
-Type  : Slow Model Setup 'alarme:A1|contador:H1|divF:DIV1|estado'
-Slack : -4.569
-TNS   : -119.849
-
-Type  : Slow Model Setup 'horario:H1|contador:M2|divF:DIV3|estado'
-Slack : -4.508
-TNS   : -120.151
-
-Type  : Slow Model Setup 'horario:H1|contador:M1|divF:DIV2|estado'
-Slack : -4.409
-TNS   : -117.563
+Type  : Slow Model Setup 'horario:H1|contador:H1|divF:DIV3|estado'
+Slack : -5.603
+TNS   : -146.494
 
 Type  : Slow Model Setup 'horario:H1|contador:H2|divF:DIV1|estado'
-Slack : -4.402
-TNS   : -118.471
+Slack : -5.417
+TNS   : -136.153
 
-Type  : Slow Model Setup 'horario:H1|contador:S1|divF:DIV3|estado'
-Slack : -4.389
-TNS   : -116.940
+Type  : Slow Model Setup 'alarme:A1|contador:M1|divF:DIV3|estado'
+Slack : -5.332
+TNS   : -138.980
 
-Type  : Slow Model Setup 'horario:H1|contador:S1|divF:DIV1|estado'
-Slack : -4.386
-TNS   : -117.296
+Type  : Slow Model Setup 'horario:H1|contador:H1|divF:DIV1|estado'
+Slack : -5.290
+TNS   : -141.905
+
+Type  : Slow Model Setup 'alarme:A1|contador:M2|divF:DIV3|estado'
+Slack : -5.272
+TNS   : -137.091
+
+Type  : Slow Model Setup 'alarme:A1|contador:M2|divF:DIV2|estado'
+Slack : -5.271
+TNS   : -139.541
 
 Type  : Slow Model Setup 'alarme:A1|contador:M1|divF:DIV1|estado'
-Slack : -4.386
-TNS   : -117.043
+Slack : -5.181
+TNS   : -137.667
 
-Type  : Slow Model Setup 'horario:H1|divF:DIV1|estado'
-Slack : -4.364
-TNS   : -113.319
+Type  : Slow Model Setup 'alarme:A1|contador:M1|divF:DIV2|estado'
+Slack : -5.171
+TNS   : -134.451
 
-Type  : Slow Model Setup 'horario:H1|contador:M1|divF:DIV3|estado'
-Slack : -4.361
-TNS   : -113.516
+Type  : Slow Model Setup 'alarme:A1|contador:M2|divF:DIV1|estado'
+Slack : -5.041
+TNS   : -134.641
 
-Type  : Slow Model Setup 'horario:H1|contador:S1|divF:DIV2|estado'
-Slack : -4.321
-TNS   : -112.186
+Type  : Slow Model Setup 'horario:H1|contador:S2|divF:DIV1|estado'
+Slack : -5.006
+TNS   : -129.200
+
+Type  : Slow Model Setup 'horario:H1|contador:H2|divF:DIV3|estado'
+Slack : -5.003
+TNS   : -123.697
+
+Type  : Slow Model Setup 'cronometro:C1|contador:MS1|divF:DIV2|estado'
+Slack : -4.965
+TNS   : -133.482
+
+Type  : Slow Model Setup 'cronometro:C1|contador:MS1|divF:DIV3|estado'
+Slack : -4.936
+TNS   : -132.974
+
+Type  : Slow Model Setup 'horario:H1|contador:S2|divF:DIV3|estado'
+Slack : -4.896
+TNS   : -128.532
+
+Type  : Slow Model Setup 'horario:H1|contador:S1|divF:DIV3|estado'
+Slack : -4.786
+TNS   : -122.969
 
 Type  : Slow Model Setup 'horario:H1|contador:H2|divF:DIV2|estado'
-Slack : -4.138
-TNS   : -105.413
+Slack : -4.782
+TNS   : -127.123
+
+Type  : Slow Model Setup 'alarme:A1|contador:H1|divF:DIV3|estado'
+Slack : -4.718
+TNS   : -122.946
+
+Type  : Slow Model Setup 'cronometro:C1|contador:MS1|divF:DIV1|estado'
+Slack : -4.704
+TNS   : -126.238
+
+Type  : Slow Model Setup 'horario:H1|contador:M2|divF:DIV1|estado'
+Slack : -4.696
+TNS   : -122.308
+
+Type  : Slow Model Setup 'horario:H1|contador:S1|divF:DIV2|estado'
+Slack : -4.678
+TNS   : -124.256
+
+Type  : Slow Model Setup 'horario:H1|contador:S2|divF:DIV2|estado'
+Slack : -4.669
+TNS   : -121.904
+
+Type  : Slow Model Setup 'horario:H1|divF:DIV1|estado'
+Slack : -4.662
+TNS   : -120.997
+
+Type  : Slow Model Setup 'horario:H1|contador:M2|divF:DIV3|estado'
+Slack : -4.624
+TNS   : -124.074
+
+Type  : Slow Model Setup 'horario:H1|contador:M2|divF:DIV2|estado'
+Slack : -4.615
+TNS   : -121.193
+
+Type  : Slow Model Setup 'alarme:A1|contador:H2|divF:DIV1|estado'
+Slack : -4.611
+TNS   : -123.511
+
+Type  : Slow Model Setup 'alarme:A1|contador:H2|divF:DIV3|estado'
+Slack : -4.591
+TNS   : -119.914
+
+Type  : Slow Model Setup 'alarme:A1|contador:H1|divF:DIV1|estado'
+Slack : -4.583
+TNS   : -120.030
+
+Type  : Slow Model Setup 'horario:H1|contador:S1|divF:DIV1|estado'
+Slack : -4.557
+TNS   : -122.997
+
+Type  : Slow Model Setup 'horario:H1|contador:M1|divF:DIV2|estado'
+Slack : -4.527
+TNS   : -118.077
+
+Type  : Slow Model Setup 'alarme:A1|contador:H1|divF:DIV2|estado'
+Slack : -4.410
+TNS   : -118.628
+
+Type  : Slow Model Setup 'alarme:A1|contador:H2|divF:DIV2|estado'
+Slack : -4.358
+TNS   : -116.486
+
+Type  : Slow Model Setup 'horario:H1|contador:M1|divF:DIV3|estado'
+Slack : -4.258
+TNS   : -113.880
 
 Type  : Slow Model Setup 'horario:H1|contador:M1|divF:DIV1|estado'
-Slack : -4.071
-TNS   : -109.119
-
-Type  : Slow Model Setup 'cronometro:C1|contador:S1|divF:DIV3|estado'
-Slack : -4.024
-TNS   : -103.094
-
-Type  : Slow Model Setup 'EscolhaModo[0]'
-Slack : -3.909
-TNS   : -19.461
-
-Type  : Slow Model Setup 'cronometro:C1|contador:S1|divF:DIV2|estado'
-Slack : -3.793
-TNS   : -99.883
-
-Type  : Slow Model Setup 'cronometro:C1|contador:MS2|divF:DIV1|estado'
-Slack : -3.792
-TNS   : -98.654
-
-Type  : Slow Model Setup 'cronometro:C1|contador:S1|divF:DIV1|estado'
-Slack : -3.734
-TNS   : -95.706
-
-Type  : Slow Model Setup 'cronometro:C1|contador:MS2|divF:DIV3|estado'
-Slack : -3.665
-TNS   : -90.460
-
-Type  : Slow Model Setup 'cronometro:C1|contador:M2|divF:DIV1|estado'
-Slack : -3.577
-TNS   : -92.501
-
-Type  : Slow Model Setup 'cronometro:C1|contador:M2|divF:DIV3|estado'
-Slack : -3.473
-TNS   : -88.513
-
-Type  : Slow Model Setup 'cronometro:C1|contador:M2|divF:DIV2|estado'
-Slack : -3.468
-TNS   : -85.247
-
-Type  : Slow Model Setup 'cronometro:C1|divF:DIV1|estado'
-Slack : -3.404
-TNS   : -91.670
-
-Type  : Slow Model Setup 'cronometro:C1|contador:MS2|divF:DIV2|estado'
-Slack : -3.391
-TNS   : -90.150
-
-Type  : Slow Model Setup 'clock1'
-Slack : -3.335
-TNS   : -156.607
-
-Type  : Slow Model Setup 'horario:H1|clockH'
-Slack : -3.329
-TNS   : -89.036
-
-Type  : Slow Model Setup 'cronometro:C1|contador:S2|divF:DIV2|estado'
-Slack : -3.291
-TNS   : -86.261
+Slack : -4.245
+TNS   : -113.742
 
 Type  : Slow Model Setup 'cronometro:C1|contador:M1|divF:DIV1|estado'
-Slack : -3.283
-TNS   : -84.038
-
-Type  : Slow Model Setup 'horario:H1|clockM'
-Slack : -3.276
-TNS   : -72.891
-
-Type  : Slow Model Setup 'cronometro:C1|contador:M1|divF:DIV3|estado'
-Slack : -3.226
-TNS   : -83.555
-
-Type  : Slow Model Setup 'cronometro:C1|contador:S2|divF:DIV1|estado'
-Slack : -3.206
-TNS   : -83.483
+Slack : -4.162
+TNS   : -106.528
 
 Type  : Slow Model Setup 'cronometro:C1|contador:M1|divF:DIV2|estado'
-Slack : -3.059
-TNS   : -80.980
+Slack : -3.947
+TNS   : -103.420
 
-Type  : Slow Model Setup 'horario:H1|contador:S1|divF:DIV4|estado'
-Slack : -3.051
-TNS   : -79.928
+Type  : Slow Model Setup 'cronometro:C1|contador:S1|divF:DIV3|estado'
+Slack : -3.916
+TNS   : -99.626
 
-Type  : Slow Model Setup 'alarme:A1|contador:M1|divF:DIV4|estado'
-Slack : -3.014
-TNS   : -73.300
+Type  : Slow Model Setup 'cronometro:C1|contador:S1|divF:DIV1|estado'
+Slack : -3.912
+TNS   : -99.977
 
-Type  : Slow Model Setup 'alarme:A1|contador:H1|divF:DIV4|estado'
-Slack : -2.971
-TNS   : -81.383
+Type  : Slow Model Setup 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Slack : -3.883
+TNS   : -103.118
 
-Type  : Slow Model Setup 'cronometro:C1|contador:MS2|divF:DIV4|estado'
-Slack : -2.918
-TNS   : -56.814
+Type  : Slow Model Setup 'horario:H1|clockH'
+Slack : -3.830
+TNS   : -95.699
 
-Type  : Slow Model Setup 'alarme:A1|clockH'
-Slack : -2.879
-TNS   : -70.168
+Type  : Slow Model Setup 'EscolhaModo[0]'
+Slack : -3.797
+TNS   : -20.265
 
-Type  : Slow Model Setup 'cronometro:C1|contador:S2|divF:DIV3|estado'
-Slack : -2.833
-TNS   : -100.608
+Type  : Slow Model Setup 'cronometro:C1|contador:MS2|divF:DIV2|estado'
+Slack : -3.633
+TNS   : -89.993
+
+Type  : Slow Model Setup 'cronometro:C1|contador:MS2|divF:DIV1|estado'
+Slack : -3.630
+TNS   : -96.180
+
+Type  : Slow Model Setup 'cronometro:C1|contador:S1|divF:DIV2|estado'
+Slack : -3.626
+TNS   : -96.211
+
+Type  : Slow Model Setup 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Slack : -3.626
+TNS   : -96.012
+
+Type  : Slow Model Setup 'clock1'
+Slack : -3.587
+TNS   : -169.182
+
+Type  : Slow Model Setup 'cronometro:C1|contador:S2|divF:DIV2|estado'
+Slack : -3.545
+TNS   : -86.916
+
+Type  : Slow Model Setup 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Slack : -3.377
+TNS   : -84.497
 
 Type  : Slow Model Setup 'alarme:A1|clockM'
-Slack : -2.781
-TNS   : -63.393
+Slack : -3.376
+TNS   : -83.418
 
-Type  : Slow Model Setup 'horario:H1|contador:H1|divF:DIV4|estado'
-Slack : -2.567
-TNS   : -69.772
+Type  : Slow Model Setup 'cronometro:C1|contador:M2|divF:DIV3|estado'
+Slack : -3.329
+TNS   : -88.311
 
-Type  : Slow Model Setup 'horario:H1|contador:M1|divF:DIV4|estado'
-Slack : -2.439
-TNS   : -67.386
+Type  : Slow Model Setup 'cronometro:C1|divF:DIV1|estado'
+Slack : -3.308
+TNS   : -89.404
 
-Type  : Slow Model Setup 'cronometro:C1|contador:MS1|divF:DIV4|estado'
-Slack : -2.385
-TNS   : -47.096
+Type  : Slow Model Setup 'cronometro:C1|contador:M2|divF:DIV2|estado'
+Slack : -3.305
+TNS   : -81.485
 
-Type  : Slow Model Setup 'cronometro:C1|contador:S1|divF:DIV4|estado'
-Slack : -2.378
-TNS   : -47.779
+Type  : Slow Model Setup 'alarme:A1|contador:M1|divF:DIV4|estado'
+Slack : -3.291
+TNS   : -86.160
+
+Type  : Slow Model Setup 'cronometro:C1|contador:S2|divF:DIV1|estado'
+Slack : -3.290
+TNS   : -87.596
+
+Type  : Slow Model Setup 'alarme:A1|clockH'
+Slack : -3.104
+TNS   : -69.634
+
+Type  : Slow Model Setup 'horario:H1|contador:S1|divF:DIV4|estado'
+Slack : -3.010
+TNS   : -65.206
+
+Type  : Slow Model Setup 'cronometro:C1|contador:S2|divF:DIV3|estado'
+Slack : -2.980
+TNS   : -100.580
+
+Type  : Slow Model Setup 'horario:H1|clockM'
+Slack : -2.860
+TNS   : -72.234
 
 Type  : Slow Model Setup 'cronometro:C1|contador:M1|divF:DIV4|estado'
-Slack : -2.377
-TNS   : -48.352
+Slack : -2.844
+TNS   : -57.201
 
-Type  : Slow Model Setup 'strt'
-Slack : -1.257
-TNS   : -1.257
+Type  : Slow Model Setup 'cronometro:C1|contador:MS2|divF:DIV4|estado'
+Slack : -2.841
+TNS   : -54.698
+
+Type  : Slow Model Setup 'alarme:A1|contador:H1|divF:DIV4|estado'
+Slack : -2.829
+TNS   : -63.812
+
+Type  : Slow Model Setup 'cronometro:C1|contador:S1|divF:DIV4|estado'
+Slack : -2.829
+TNS   : -54.722
+
+Type  : Slow Model Setup 'horario:H1|contador:H1|divF:DIV4|estado'
+Slack : -2.767
+TNS   : -75.975
+
+Type  : Slow Model Setup 'horario:H1|contador:M1|divF:DIV4|estado'
+Slack : -2.430
+TNS   : -62.644
+
+Type  : Slow Model Setup 'cronometro:C1|contador:MS1|divF:DIV4|estado'
+Slack : -2.383
+TNS   : -47.581
 
 Type  : Slow Model Setup 'set'
-Slack : -0.940
-TNS   : -3.124
+Slack : -0.957
+TNS   : -3.500
+
+Type  : Slow Model Setup 'strt'
+Slack : -0.462
+TNS   : -0.462
 
 Type  : Slow Model Setup 'modo'
-Slack : -0.782
-TNS   : -1.168
+Slack : -0.384
+TNS   : -0.723
 
-Type  : Slow Model Hold 'alarme:A1|clockM'
-Slack : -3.449
-TNS   : -17.923
-
-Type  : Slow Model Hold 'alarme:A1|contador:M1|divF:DIV4|estado'
-Slack : -3.381
-TNS   : -9.923
-
-Type  : Slow Model Hold 'cronometro:C1|contador:MS2|divF:DIV4|estado'
-Slack : -3.380
-TNS   : -5.623
-
-Type  : Slow Model Hold 'cronometro:C1|contador:MS1|divF:DIV4|estado'
-Slack : -3.359
-TNS   : -5.279
+Type  : Slow Model Setup 'reset'
+Slack : 0.379
+TNS   : 0.000
 
 Type  : Slow Model Hold 'horario:H1|contador:S1|divF:DIV4|estado'
-Slack : -3.263
-TNS   : -46.529
-
-Type  : Slow Model Hold 'horario:H1|contador:M1|divF:DIV4|estado'
-Slack : -3.226
-TNS   : -35.823
-
-Type  : Slow Model Hold 'alarme:A1|clockH'
-Slack : -3.215
-TNS   : -41.572
-
-Type  : Slow Model Hold 'horario:H1|clockH'
-Slack : -3.101
-TNS   : -4.677
-
-Type  : Slow Model Hold 'horario:H1|contador:H1|divF:DIV4|estado'
-Slack : -3.054
-TNS   : -13.292
-
-Type  : Slow Model Hold 'horario:H1|clockM'
-Slack : -3.048
-TNS   : -27.349
-
-Type  : Slow Model Hold 'cronometro:C1|contador:M1|divF:DIV4|estado'
-Slack : -3.026
-TNS   : -5.120
-
-Type  : Slow Model Hold 'cronometro:C1|contador:S1|divF:DIV4|estado'
-Slack : -3.024
-TNS   : -4.958
-
-Type  : Slow Model Hold 'cronometro:C1|divF:DIV1|estado'
-Slack : -2.982
-TNS   : -4.944
+Slack : -3.606
+TNS   : -36.489
 
 Type  : Slow Model Hold 'cronometro:C1|contador:S2|divF:DIV3|estado'
-Slack : -2.962
-TNS   : -4.725
+Slack : -3.526
+TNS   : -5.057
 
 Type  : Slow Model Hold 'alarme:A1|contador:H1|divF:DIV4|estado'
-Slack : -2.849
-TNS   : -35.292
+Slack : -3.501
+TNS   : -28.531
+
+Type  : Slow Model Hold 'alarme:A1|clockM'
+Slack : -3.400
+TNS   : -30.858
+
+Type  : Slow Model Hold 'horario:H1|contador:M1|divF:DIV4|estado'
+Slack : -3.374
+TNS   : -45.203
+
+Type  : Slow Model Hold 'cronometro:C1|contador:MS2|divF:DIV4|estado'
+Slack : -3.302
+TNS   : -5.463
+
+Type  : Slow Model Hold 'cronometro:C1|contador:MS1|divF:DIV4|estado'
+Slack : -3.302
+TNS   : -5.111
+
+Type  : Slow Model Hold 'alarme:A1|contador:M1|divF:DIV4|estado'
+Slack : -3.278
+TNS   : -21.313
+
+Type  : Slow Model Hold 'horario:H1|contador:H1|divF:DIV4|estado'
+Slack : -3.172
+TNS   : -13.187
+
+Type  : Slow Model Hold 'alarme:A1|clockH'
+Slack : -3.107
+TNS   : -18.551
+
+Type  : Slow Model Hold 'cronometro:C1|contador:S1|divF:DIV4|estado'
+Slack : -3.004
+TNS   : -5.324
+
+Type  : Slow Model Hold 'cronometro:C1|contador:M1|divF:DIV4|estado'
+Slack : -2.889
+TNS   : -4.561
+
+Type  : Slow Model Hold 'horario:H1|clockM'
+Slack : -2.865
+TNS   : -29.551
+
+Type  : Slow Model Hold 'horario:H1|clockH'
+Slack : -2.668
+TNS   : -3.988
+
+Type  : Slow Model Hold 'cronometro:C1|divF:DIV1|estado'
+Slack : -2.593
+TNS   : -4.628
 
 Type  : Slow Model Hold 'clock1'
-Slack : -2.546
-TNS   : -8.315
+Slack : -2.538
+TNS   : -8.446
 
 Type  : Slow Model Hold 'modo'
-Slack : -2.484
-TNS   : -4.564
-
-Type  : Slow Model Hold 'set'
-Slack : -1.922
-TNS   : -4.985
-
-Type  : Slow Model Hold 'horario:H1|divF:DIV1|estado'
-Slack : -1.475
-TNS   : -1.926
-
-Type  : Slow Model Hold 'horario:H1|contador:H2|divF:DIV1|estado'
-Slack : -1.438
-TNS   : -1.438
-
-Type  : Slow Model Hold 'alarme:A1|contador:M1|divF:DIV1|estado'
-Slack : -1.428
-TNS   : -1.428
-
-Type  : Slow Model Hold 'horario:H1|contador:M1|divF:DIV2|estado'
-Slack : -1.414
-TNS   : -1.414
-
-Type  : Slow Model Hold 'horario:H1|contador:S2|divF:DIV1|estado'
-Slack : -1.320
-TNS   : -1.320
+Slack : -2.418
+TNS   : -4.749
 
 Type  : Slow Model Hold 'strt'
-Slack : -1.239
-TNS   : -1.239
+Slack : -2.236
+TNS   : -2.236
+
+Type  : Slow Model Hold 'set'
+Slack : -1.758
+TNS   : -6.265
+
+Type  : Slow Model Hold 'horario:H1|contador:M1|divF:DIV1|estado'
+Slack : -1.431
+TNS   : -1.431
+
+Type  : Slow Model Hold 'cronometro:C1|contador:M2|divF:DIV2|estado'
+Slack : -1.423
+TNS   : -1.423
 
 Type  : Slow Model Hold 'horario:H1|contador:S2|divF:DIV2|estado'
-Slack : -1.201
-TNS   : -1.201
+Slack : -1.400
+TNS   : -1.400
 
-Type  : Slow Model Hold 'cronometro:C1|contador:S1|divF:DIV1|estado'
-Slack : -1.197
-TNS   : -1.197
+Type  : Slow Model Hold 'horario:H1|divF:DIV1|estado'
+Slack : -1.397
+TNS   : -1.842
 
-Type  : Slow Model Hold 'alarme:A1|contador:H1|divF:DIV2|estado'
-Slack : -1.195
-TNS   : -1.195
+Type  : Slow Model Hold 'alarme:A1|contador:M1|divF:DIV2|estado'
+Slack : -1.356
+TNS   : -1.356
 
 Type  : Slow Model Hold 'alarme:A1|contador:M2|divF:DIV1|estado'
-Slack : -1.192
-TNS   : -1.192
-
-Type  : Slow Model Hold 'cronometro:C1|contador:M1|divF:DIV3|estado'
-Slack : -1.190
-TNS   : -1.190
+Slack : -1.328
+TNS   : -1.328
 
 Type  : Slow Model Hold 'alarme:A1|contador:M2|divF:DIV2|estado'
-Slack : -1.185
-TNS   : -1.185
+Slack : -1.230
+TNS   : -1.230
 
-Type  : Slow Model Hold 'alarme:A1|contador:M1|divF:DIV3|estado'
+Type  : Slow Model Hold 'alarme:A1|contador:H1|divF:DIV2|estado'
+Slack : -1.212
+TNS   : -1.212
+
+Type  : Slow Model Hold 'cronometro:C1|contador:S1|divF:DIV2|estado'
+Slack : -1.187
+TNS   : -1.187
+
+Type  : Slow Model Hold 'cronometro:C1|contador:MS2|divF:DIV2|estado'
 Slack : -1.184
 TNS   : -1.184
 
-Type  : Slow Model Hold 'alarme:A1|contador:H1|divF:DIV1|estado'
+Type  : Slow Model Hold 'cronometro:C1|contador:M1|divF:DIV1|estado'
+Slack : -1.179
+TNS   : -1.179
+
+Type  : Slow Model Hold 'horario:H1|contador:H2|divF:DIV2|estado'
 Slack : -1.177
 TNS   : -1.177
 
-Type  : Slow Model Hold 'cronometro:C1|contador:MS2|divF:DIV3|estado'
-Slack : -1.177
-TNS   : -1.177
+Type  : Slow Model Hold 'horario:H1|contador:M2|divF:DIV2|estado'
+Slack : -1.176
+TNS   : -1.176
 
-Type  : Slow Model Hold 'horario:H1|contador:H1|divF:DIV2|estado'
-Slack : -1.177
-TNS   : -1.177
+Type  : Slow Model Hold 'cronometro:C1|contador:S1|divF:DIV3|estado'
+Slack : -1.175
+TNS   : -1.175
 
-Type  : Slow Model Hold 'horario:H1|contador:S1|divF:DIV2|estado'
-Slack : -1.177
-TNS   : -1.177
+Type  : Slow Model Hold 'horario:H1|contador:H1|divF:DIV3|estado'
+Slack : -1.168
+TNS   : -1.168
 
-Type  : Slow Model Hold 'cronometro:C1|contador:M1|divF:DIV2|estado'
+Type  : Slow Model Hold 'alarme:A1|contador:H2|divF:DIV2|estado'
+Slack : -1.167
+TNS   : -1.167
+
+Type  : Slow Model Hold 'cronometro:C1|contador:MS2|divF:DIV1|estado'
 Slack : -1.167
 TNS   : -1.167
 
 Type  : Slow Model Hold 'cronometro:C1|contador:S2|divF:DIV2|estado'
-Slack : -1.167
-TNS   : -1.167
-
-Type  : Slow Model Hold 'alarme:A1|contador:H2|divF:DIV1|estado'
-Slack : -1.163
-TNS   : -1.163
-
-Type  : Slow Model Hold 'EscolhaModo[0]'
-Slack : -1.152
-TNS   : -1.152
-
-Type  : Slow Model Hold 'horario:H1|contador:S1|divF:DIV1|estado'
-Slack : -1.151
-TNS   : -1.151
-
-Type  : Slow Model Hold 'cronometro:C1|contador:S2|divF:DIV1|estado'
-Slack : -1.148
-TNS   : -1.148
-
-Type  : Slow Model Hold 'horario:H1|contador:M1|divF:DIV3|estado'
-Slack : -1.147
-TNS   : -1.147
-
-Type  : Slow Model Hold 'horario:H1|contador:H2|divF:DIV2|estado'
-Slack : -1.140
-TNS   : -1.140
-
-Type  : Slow Model Hold 'alarme:A1|contador:M1|divF:DIV2|estado'
-Slack : -1.125
-TNS   : -1.125
-
-Type  : Slow Model Hold 'horario:H1|contador:H1|divF:DIV1|estado'
-Slack : -1.120
-TNS   : -1.120
+Slack : -1.164
+TNS   : -1.164
 
 Type  : Slow Model Hold 'cronometro:C1|contador:MS1|divF:DIV1|estado'
-Slack : -1.119
-TNS   : -1.119
+Slack : -1.155
+TNS   : -1.155
+
+Type  : Slow Model Hold 'cronometro:C1|contador:S2|divF:DIV1|estado'
+Slack : -1.155
+TNS   : -1.155
+
+Type  : Slow Model Hold 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Slack : -1.134
+TNS   : -1.134
+
+Type  : Slow Model Hold 'horario:H1|contador:H2|divF:DIV1|estado'
+Slack : -1.123
+TNS   : -1.123
 
 Type  : Slow Model Hold 'horario:H1|contador:M2|divF:DIV1|estado'
-Slack : -1.114
-TNS   : -1.114
+Slack : -1.122
+TNS   : -1.122
 
-Type  : Slow Model Hold 'cronometro:C1|contador:M2|divF:DIV2|estado'
-Slack : -1.111
-TNS   : -1.111
+Type  : Slow Model Hold 'horario:H1|contador:S1|divF:DIV2|estado'
+Slack : -1.113
+TNS   : -1.113
+
+Type  : Slow Model Hold 'cronometro:C1|contador:M1|divF:DIV2|estado'
+Slack : -1.104
+TNS   : -1.104
+
+Type  : Slow Model Hold 'cronometro:C1|contador:S1|divF:DIV1|estado'
+Slack : -1.098
+TNS   : -1.098
+
+Type  : Slow Model Hold 'horario:H1|contador:S1|divF:DIV1|estado'
+Slack : -1.098
+TNS   : -1.098
 
 Type  : Slow Model Hold 'alarme:A1|contador:H1|divF:DIV3|estado'
-Slack : -1.110
-TNS   : -1.110
+Slack : -1.094
+TNS   : -1.094
 
-Type  : Slow Model Hold 'cronometro:C1|contador:MS2|divF:DIV2|estado'
-Slack : -1.108
-TNS   : -1.108
+Type  : Slow Model Hold 'alarme:A1|contador:M1|divF:DIV3|estado'
+Slack : -0.915
+TNS   : -0.915
 
-Type  : Slow Model Hold 'cronometro:C1|contador:M1|divF:DIV1|estado'
-Slack : -1.104
-TNS   : -1.104
+Type  : Slow Model Hold 'horario:H1|contador:S1|divF:DIV3|estado'
+Slack : -0.900
+TNS   : -0.900
 
-Type  : Slow Model Hold 'cronometro:C1|contador:MS1|divF:DIV2|estado'
-Slack : -1.104
-TNS   : -1.104
+Type  : Slow Model Hold 'alarme:A1|contador:H1|divF:DIV1|estado'
+Slack : -0.898
+TNS   : -0.898
 
-Type  : Slow Model Hold 'horario:H1|contador:M2|divF:DIV2|estado'
-Slack : -0.940
-TNS   : -0.940
+Type  : Slow Model Hold 'horario:H1|contador:M1|divF:DIV3|estado'
+Slack : -0.898
+TNS   : -0.898
 
-Type  : Slow Model Hold 'cronometro:C1|contador:M2|divF:DIV1|estado'
-Slack : -0.911
-TNS   : -0.911
-
-Type  : Slow Model Hold 'cronometro:C1|contador:MS2|divF:DIV1|estado'
-Slack : -0.905
-TNS   : -0.905
-
-Type  : Slow Model Hold 'cronometro:C1|contador:S1|divF:DIV2|estado'
-Slack : -0.893
-TNS   : -0.893
-
-Type  : Slow Model Hold 'cronometro:C1|contador:MS1|divF:DIV3|estado'
+Type  : Slow Model Hold 'horario:H1|contador:H1|divF:DIV2|estado'
 Slack : -0.891
 TNS   : -0.891
 
-Type  : Slow Model Hold 'horario:H1|contador:H1|divF:DIV3|estado'
+Type  : Slow Model Hold 'horario:H1|contador:S2|divF:DIV1|estado'
 Slack : -0.888
 TNS   : -0.888
 
-Type  : Slow Model Hold 'horario:H1|contador:M1|divF:DIV1|estado'
-Slack : -0.702
-TNS   : -0.702
+Type  : Slow Model Hold 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Slack : -0.885
+TNS   : -0.885
 
-Type  : Slow Model Hold 'cronometro:C1|contador:S1|divF:DIV3|estado'
-Slack : -0.698
-TNS   : -0.698
+Type  : Slow Model Hold 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Slack : -0.880
+TNS   : -0.880
 
-Type  : Slow Model Hold 'horario:H1|contador:S1|divF:DIV3|estado'
+Type  : Slow Model Hold 'alarme:A1|contador:H2|divF:DIV1|estado'
+Slack : -0.879
+TNS   : -0.879
+
+Type  : Slow Model Hold 'cronometro:C1|contador:MS1|divF:DIV2|estado'
+Slack : -0.839
+TNS   : -0.839
+
+Type  : Slow Model Hold 'horario:H1|contador:H1|divF:DIV1|estado'
+Slack : -0.839
+TNS   : -0.839
+
+Type  : Slow Model Hold 'alarme:A1|contador:M1|divF:DIV1|estado'
+Slack : -0.706
+TNS   : -0.706
+
+Type  : Slow Model Hold 'horario:H1|contador:M1|divF:DIV2|estado'
+Slack : -0.694
+TNS   : -0.694
+
+Type  : Slow Model Hold 'cronometro:C1|contador:MS1|divF:DIV3|estado'
 Slack : -0.691
 TNS   : -0.691
 
-Type  : Slow Model Hold 'alarme:A1|contador:H2|divF:DIV2|estado'
-Slack : -0.690
-TNS   : -0.690
-
-Type  : Slow Model Hold 'horario:H1|contador:S2|divF:DIV3|estado'
-Slack : 0.240
-TNS   : 0.000
+Type  : Slow Model Hold 'EscolhaModo[0]'
+Slack : -0.549
+TNS   : -0.559
 
 Type  : Slow Model Hold 'alarme:A1|contador:H2|divF:DIV3|estado'
 Slack : 0.391
@@ -546,516 +546,532 @@ Type  : Slow Model Hold 'horario:H1|contador:M2|divF:DIV3|estado'
 Slack : 0.391
 TNS   : 0.000
 
-Type  : Slow Model Recovery 'horario:H1|contador:M1|divF:DIV1|estado'
-Slack : -4.316
-TNS   : -4.316
+Type  : Slow Model Hold 'horario:H1|contador:S2|divF:DIV3|estado'
+Slack : 0.391
+TNS   : 0.000
 
-Type  : Slow Model Recovery 'cronometro:C1|contador:S1|divF:DIV3|estado'
-Slack : -4.300
-TNS   : -4.300
-
-Type  : Slow Model Recovery 'horario:H1|contador:S1|divF:DIV3|estado'
-Slack : -4.243
-TNS   : -4.243
-
-Type  : Slow Model Recovery 'horario:H1|contador:M2|divF:DIV2|estado'
-Slack : -4.179
-TNS   : -4.179
-
-Type  : Slow Model Recovery 'alarme:A1|contador:M1|divF:DIV2|estado'
-Slack : -4.121
-TNS   : -4.121
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:S1|divF:DIV2|estado'
-Slack : -4.105
-TNS   : -4.105
-
-Type  : Slow Model Recovery 'alarme:A1|contador:M2|divF:DIV3|estado'
-Slack : -4.073
-TNS   : -4.073
-
-Type  : Slow Model Recovery 'alarme:A1|contador:M2|divF:DIV1|estado'
-Slack : -4.072
-TNS   : -4.072
-
-Type  : Slow Model Recovery 'alarme:A1|contador:H2|divF:DIV2|estado'
-Slack : -4.003
-TNS   : -4.003
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:MS2|divF:DIV1|estado'
-Slack : -3.923
-TNS   : -3.923
-
-Type  : Slow Model Recovery 'horario:H1|contador:M2|divF:DIV3|estado'
-Slack : -3.887
-TNS   : -3.887
-
-Type  : Slow Model Recovery 'alarme:A1|contador:M1|divF:DIV1|estado'
-Slack : -3.867
-TNS   : -3.867
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:MS1|divF:DIV1|estado'
-Slack : -3.839
-TNS   : -3.839
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:MS1|divF:DIV3|estado'
-Slack : -3.806
-TNS   : -3.806
-
-Type  : Slow Model Recovery 'horario:H1|contador:S1|divF:DIV1|estado'
-Slack : -3.795
-TNS   : -3.795
-
-Type  : Slow Model Recovery 'horario:H1|contador:H1|divF:DIV3|estado'
-Slack : -3.794
-TNS   : -3.794
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:S1|divF:DIV1|estado'
-Slack : -3.792
-TNS   : -3.792
+Type  : Slow Model Hold 'reset'
+Slack : 0.391
+TNS   : 0.000
 
 Type  : Slow Model Recovery 'alarme:A1|contador:M1|divF:DIV3|estado'
-Slack : -3.773
-TNS   : -3.773
+Slack : -4.499
+TNS   : -4.499
 
-Type  : Slow Model Recovery 'cronometro:C1|contador:MS2|divF:DIV2|estado'
-Slack : -3.770
-TNS   : -3.770
-
-Type  : Slow Model Recovery 'horario:H1|contador:S1|divF:DIV2|estado'
-Slack : -3.757
-TNS   : -3.757
+Type  : Slow Model Recovery 'alarme:A1|contador:H2|divF:DIV3|estado'
+Slack : -4.333
+TNS   : -4.333
 
 Type  : Slow Model Recovery 'alarme:A1|contador:M2|divF:DIV2|estado'
-Slack : -3.738
-TNS   : -3.738
+Slack : -4.290
+TNS   : -4.290
 
-Type  : Slow Model Recovery 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Type  : Slow Model Recovery 'horario:H1|contador:S2|divF:DIV1|estado'
+Slack : -4.285
+TNS   : -4.285
+
+Type  : Slow Model Recovery 'horario:H1|contador:S1|divF:DIV3|estado'
+Slack : -4.262
+TNS   : -4.262
+
+Type  : Slow Model Recovery 'alarme:A1|contador:M1|divF:DIV1|estado'
+Slack : -4.232
+TNS   : -4.232
+
+Type  : Slow Model Recovery 'horario:H1|contador:M1|divF:DIV2|estado'
+Slack : -4.215
+TNS   : -4.215
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Slack : -4.187
+TNS   : -4.187
+
+Type  : Slow Model Recovery 'horario:H1|contador:S2|divF:DIV3|estado'
+Slack : -4.102
+TNS   : -4.102
+
+Type  : Slow Model Recovery 'horario:H1|contador:M2|divF:DIV1|estado'
+Slack : -4.092
+TNS   : -4.092
+
+Type  : Slow Model Recovery 'horario:H1|contador:M2|divF:DIV2|estado'
+Slack : -4.084
+TNS   : -4.084
+
+Type  : Slow Model Recovery 'alarme:A1|contador:M1|divF:DIV2|estado'
+Slack : -4.076
+TNS   : -4.076
+
+Type  : Slow Model Recovery 'alarme:A1|contador:H1|divF:DIV1|estado'
+Slack : -4.055
+TNS   : -4.055
+
+Type  : Slow Model Recovery 'alarme:A1|contador:H2|divF:DIV1|estado'
+Slack : -4.034
+TNS   : -4.034
+
+Type  : Slow Model Recovery 'alarme:A1|contador:M2|divF:DIV3|estado'
+Slack : -4.033
+TNS   : -4.033
+
+Type  : Slow Model Recovery 'horario:H1|contador:M1|divF:DIV3|estado'
+Slack : -4.010
+TNS   : -4.010
+
+Type  : Slow Model Recovery 'alarme:A1|contador:H1|divF:DIV3|estado'
+Slack : -3.901
+TNS   : -3.901
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:M1|divF:DIV1|estado'
+Slack : -3.892
+TNS   : -3.892
+
+Type  : Slow Model Recovery 'horario:H1|contador:H1|divF:DIV1|estado'
+Slack : -3.860
+TNS   : -3.860
+
+Type  : Slow Model Recovery 'horario:H1|contador:S2|divF:DIV2|estado'
+Slack : -3.828
+TNS   : -3.828
+
+Type  : Slow Model Recovery 'horario:H1|contador:H1|divF:DIV2|estado'
+Slack : -3.814
+TNS   : -3.814
+
+Type  : Slow Model Recovery 'alarme:A1|contador:H2|divF:DIV2|estado'
+Slack : -3.799
+TNS   : -3.799
+
+Type  : Slow Model Recovery 'horario:H1|contador:M2|divF:DIV3|estado'
+Slack : -3.783
+TNS   : -3.783
+
+Type  : Slow Model Recovery 'horario:H1|contador:S1|divF:DIV1|estado'
+Slack : -3.781
+TNS   : -3.781
+
+Type  : Slow Model Recovery 'horario:H1|contador:S1|divF:DIV2|estado'
+Slack : -3.767
+TNS   : -3.767
+
+Type  : Slow Model Recovery 'alarme:A1|contador:H1|divF:DIV2|estado'
+Slack : -3.747
+TNS   : -3.747
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:M1|divF:DIV2|estado'
+Slack : -3.746
+TNS   : -3.746
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:MS2|divF:DIV2|estado'
+Slack : -3.723
+TNS   : -3.723
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:MS2|divF:DIV1|estado'
 Slack : -3.718
 TNS   : -3.718
 
-Type  : Slow Model Recovery 'horario:H1|contador:M2|divF:DIV1|estado'
-Slack : -3.695
-TNS   : -3.695
+Type  : Slow Model Recovery 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Slack : -3.711
+TNS   : -3.711
 
-Type  : Slow Model Recovery 'horario:H1|contador:S2|divF:DIV1|estado'
-Slack : -3.689
-TNS   : -3.689
+Type  : Slow Model Recovery 'cronometro:C1|contador:S1|divF:DIV2|estado'
+Slack : -3.706
+TNS   : -3.706
 
-Type  : Slow Model Recovery 'cronometro:C1|contador:M2|divF:DIV1|estado'
-Slack : -3.684
-TNS   : -3.684
-
-Type  : Slow Model Recovery 'alarme:A1|contador:H1|divF:DIV3|estado'
-Slack : -3.627
-TNS   : -3.627
-
-Type  : Slow Model Recovery 'horario:H1|contador:S2|divF:DIV3|estado'
-Slack : -3.618
-TNS   : -3.618
-
-Type  : Slow Model Recovery 'horario:H1|contador:S2|divF:DIV2|estado'
-Slack : -3.595
-TNS   : -3.595
-
-Type  : Slow Model Recovery 'alarme:A1|contador:H1|divF:DIV1|estado'
-Slack : -3.578
-TNS   : -3.578
-
-Type  : Slow Model Recovery 'horario:H1|contador:M1|divF:DIV2|estado'
-Slack : -3.578
-TNS   : -3.578
-
-Type  : Slow Model Recovery 'horario:H1|contador:M1|divF:DIV3|estado'
-Slack : -3.569
-TNS   : -3.569
-
-Type  : Slow Model Recovery 'alarme:A1|contador:H1|divF:DIV2|estado'
-Slack : -3.543
-TNS   : -3.543
-
-Type  : Slow Model Recovery 'alarme:A1|contador:H2|divF:DIV1|estado'
-Slack : -3.530
-TNS   : -3.530
-
-Type  : Slow Model Recovery 'horario:H1|contador:H2|divF:DIV3|estado'
-Slack : -3.512
-TNS   : -3.512
-
-Type  : Slow Model Recovery 'horario:H1|contador:H1|divF:DIV2|estado'
-Slack : -3.505
-TNS   : -3.505
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:M2|divF:DIV2|estado'
-Slack : -3.504
-TNS   : -3.504
-
-Type  : Slow Model Recovery 'horario:H1|contador:H2|divF:DIV2|estado'
-Slack : -3.491
-TNS   : -3.491
+Type  : Slow Model Recovery 'cronometro:C1|contador:S1|divF:DIV3|estado'
+Slack : -3.705
+TNS   : -3.705
 
 Type  : Slow Model Recovery 'horario:H1|divF:DIV1|estado'
-Slack : -3.476
-TNS   : -3.476
+Slack : -3.701
+TNS   : -3.701
 
-Type  : Slow Model Recovery 'cronometro:C1|contador:M2|divF:DIV3|estado'
-Slack : -3.474
-TNS   : -3.474
+Type  : Slow Model Recovery 'alarme:A1|contador:M2|divF:DIV1|estado'
+Slack : -3.658
+TNS   : -3.658
 
-Type  : Slow Model Recovery 'cronometro:C1|contador:MS1|divF:DIV2|estado'
-Slack : -3.425
-TNS   : -3.425
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:M1|divF:DIV2|estado'
-Slack : -3.374
-TNS   : -3.374
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:M1|divF:DIV3|estado'
-Slack : -3.359
-TNS   : -3.359
-
-Type  : Slow Model Recovery 'horario:H1|contador:H1|divF:DIV1|estado'
-Slack : -3.292
-TNS   : -3.292
-
-Type  : Slow Model Recovery 'alarme:A1|contador:H2|divF:DIV3|estado'
-Slack : -3.220
-TNS   : -3.220
+Type  : Slow Model Recovery 'cronometro:C1|contador:MS1|divF:DIV3|estado'
+Slack : -3.651
+TNS   : -3.651
 
 Type  : Slow Model Recovery 'horario:H1|contador:H2|divF:DIV1|estado'
-Slack : -3.190
-TNS   : -3.190
+Slack : -3.585
+TNS   : -3.585
 
-Type  : Slow Model Recovery 'cronometro:C1|contador:M1|divF:DIV1|estado'
-Slack : -3.125
-TNS   : -3.125
+Type  : Slow Model Recovery 'horario:H1|contador:H2|divF:DIV2|estado'
+Slack : -3.563
+TNS   : -3.563
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:MS1|divF:DIV2|estado'
+Slack : -3.503
+TNS   : -3.503
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:S1|divF:DIV1|estado'
+Slack : -3.499
+TNS   : -3.499
+
+Type  : Slow Model Recovery 'horario:H1|contador:H1|divF:DIV3|estado'
+Slack : -3.480
+TNS   : -3.480
+
+Type  : Slow Model Recovery 'horario:H1|contador:M1|divF:DIV1|estado'
+Slack : -3.478
+TNS   : -3.478
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:M2|divF:DIV3|estado'
+Slack : -3.377
+TNS   : -3.377
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:MS1|divF:DIV1|estado'
+Slack : -3.371
+TNS   : -3.371
 
 Type  : Slow Model Recovery 'cronometro:C1|contador:S2|divF:DIV1|estado'
-Slack : -3.115
-TNS   : -3.115
+Slack : -3.366
+TNS   : -3.366
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Slack : -3.322
+TNS   : -3.322
+
+Type  : Slow Model Recovery 'horario:H1|contador:H2|divF:DIV3|estado'
+Slack : -3.214
+TNS   : -3.214
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:M2|divF:DIV2|estado'
+Slack : -3.147
+TNS   : -3.147
 
 Type  : Slow Model Recovery 'cronometro:C1|contador:S2|divF:DIV2|estado'
-Slack : -3.096
-TNS   : -3.096
-
-Type  : Slow Model Recovery 'horario:H1|clockM'
-Slack : -1.970
-TNS   : -1.970
-
-Type  : Slow Model Recovery 'alarme:A1|contador:M1|divF:DIV4|estado'
-Slack : -1.869
-TNS   : -1.869
+Slack : -3.101
+TNS   : -3.101
 
 Type  : Slow Model Recovery 'cronometro:C1|divF:DIV1|estado'
-Slack : -1.715
-TNS   : -1.715
+Slack : -2.215
+TNS   : -2.215
 
-Type  : Slow Model Recovery 'cronometro:C1|contador:S2|divF:DIV3|estado'
-Slack : -1.586
-TNS   : -2.863
-
-Type  : Slow Model Recovery 'horario:H1|contador:M1|divF:DIV4|estado'
-Slack : -1.582
-TNS   : -1.582
-
-Type  : Slow Model Recovery 'alarme:A1|contador:H1|divF:DIV4|estado'
-Slack : -1.558
-TNS   : -1.558
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:M1|divF:DIV4|estado'
-Slack : -1.343
-TNS   : -1.343
-
-Type  : Slow Model Recovery 'alarme:A1|clockM'
-Slack : -1.335
-TNS   : -1.335
+Type  : Slow Model Recovery 'alarme:A1|contador:M1|divF:DIV4|estado'
+Slack : -2.155
+TNS   : -2.155
 
 Type  : Slow Model Recovery 'horario:H1|clockH'
-Slack : -1.313
-TNS   : -1.313
+Slack : -2.037
+TNS   : -2.037
 
-Type  : Slow Model Recovery 'horario:H1|contador:S1|divF:DIV4|estado'
-Slack : -1.302
-TNS   : -1.302
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:MS2|divF:DIV4|estado'
-Slack : -1.297
-TNS   : -1.297
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:MS1|divF:DIV4|estado'
-Slack : -1.232
-TNS   : -1.232
-
-Type  : Slow Model Recovery 'set'
-Slack : -1.222
-TNS   : -4.548
-
-Type  : Slow Model Recovery 'horario:H1|contador:H1|divF:DIV4|estado'
-Slack : -1.133
-TNS   : -1.133
-
-Type  : Slow Model Recovery 'cronometro:C1|contador:S1|divF:DIV4|estado'
-Slack : -1.034
-TNS   : -1.034
+Type  : Slow Model Recovery 'horario:H1|contador:M1|divF:DIV4|estado'
+Slack : -1.895
+TNS   : -1.895
 
 Type  : Slow Model Recovery 'alarme:A1|clockH'
-Slack : -1.033
-TNS   : -1.033
+Slack : -1.846
+TNS   : -1.846
+
+Type  : Slow Model Recovery 'horario:H1|contador:H1|divF:DIV4|estado'
+Slack : -1.756
+TNS   : -1.756
+
+Type  : Slow Model Recovery 'clock1'
+Slack : -1.749
+TNS   : -1.749
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:S2|divF:DIV3|estado'
+Slack : -1.613
+TNS   : -2.662
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:M1|divF:DIV4|estado'
+Slack : -1.597
+TNS   : -1.597
+
+Type  : Slow Model Recovery 'set'
+Slack : -1.596
+TNS   : -6.018
+
+Type  : Slow Model Recovery 'horario:H1|clockM'
+Slack : -1.553
+TNS   : -1.553
+
+Type  : Slow Model Recovery 'alarme:A1|clockM'
+Slack : -1.538
+TNS   : -1.538
+
+Type  : Slow Model Recovery 'horario:H1|contador:S1|divF:DIV4|estado'
+Slack : -1.351
+TNS   : -1.351
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:MS1|divF:DIV4|estado'
+Slack : -1.303
+TNS   : -1.303
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:MS2|divF:DIV4|estado'
+Slack : -1.295
+TNS   : -1.295
+
+Type  : Slow Model Recovery 'cronometro:C1|contador:S1|divF:DIV4|estado'
+Slack : -1.254
+TNS   : -1.254
+
+Type  : Slow Model Recovery 'alarme:A1|contador:H1|divF:DIV4|estado'
+Slack : -1.246
+TNS   : -1.246
 
 Type  : Slow Model Removal 'set'
-Slack : -1.653
-TNS   : -6.560
+Slack : -1.326
+TNS   : -4.890
 
-Type  : Slow Model Removal 'alarme:A1|clockM'
-Slack : 1.010
-TNS   : 0.000
+Type  : Slow Model Removal 'clock1'
+Slack : -0.966
+TNS   : -0.966
 
-Type  : Slow Model Removal 'horario:H1|contador:H1|divF:DIV4|estado'
-Slack : 1.393
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:S1|divF:DIV4|estado'
-Slack : 1.435
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|clockH'
-Slack : 1.437
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:S1|divF:DIV4|estado'
-Slack : 1.437
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|clockH'
-Slack : 1.766
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:M1|divF:DIV4|estado'
-Slack : 1.770
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:H1|divF:DIV4|estado'
-Slack : 1.773
+Type  : Slow Model Removal 'cronometro:C1|contador:S2|divF:DIV3|estado'
+Slack : 0.217
 TNS   : 0.000
 
 Type  : Slow Model Removal 'cronometro:C1|contador:MS1|divF:DIV4|estado'
-Slack : 1.814
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|divF:DIV1|estado'
-Slack : 1.918
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:S2|divF:DIV3|estado'
-Slack : 1.989
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|divF:DIV1|estado'
-Slack : 1.990
+Slack : 0.379
 TNS   : 0.000
 
 Type  : Slow Model Removal 'cronometro:C1|contador:MS2|divF:DIV4|estado'
-Slack : 2.000
+Slack : 0.400
 TNS   : 0.000
 
-Type  : Slow Model Removal 'alarme:A1|contador:M1|divF:DIV4|estado'
-Slack : 2.002
+Type  : Slow Model Removal 'cronometro:C1|contador:S1|divF:DIV4|estado'
+Slack : 0.422
 TNS   : 0.000
 
-Type  : Slow Model Removal 'cronometro:C1|contador:M1|divF:DIV4|estado'
-Slack : 2.014
+Type  : Slow Model Removal 'horario:H1|contador:S1|divF:DIV4|estado'
+Slack : 1.016
 TNS   : 0.000
 
-Type  : Slow Model Removal 'horario:H1|contador:S1|divF:DIV2|estado'
-Slack : 2.271
+Type  : Slow Model Removal 'alarme:A1|contador:H1|divF:DIV4|estado'
+Slack : 1.253
 TNS   : 0.000
 
-Type  : Slow Model Removal 'horario:H1|contador:S1|divF:DIV1|estado'
-Slack : 2.309
+Type  : Slow Model Removal 'alarme:A1|clockM'
+Slack : 1.443
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|divF:DIV1|estado'
+Slack : 1.611
 TNS   : 0.000
 
 Type  : Slow Model Removal 'horario:H1|clockM'
-Slack : 2.325
+Slack : 1.741
 TNS   : 0.000
 
-Type  : Slow Model Removal 'horario:H1|contador:S1|divF:DIV3|estado'
-Slack : 2.757
+Type  : Slow Model Removal 'alarme:A1|clockH'
+Slack : 1.813
 TNS   : 0.000
 
-Type  : Slow Model Removal 'alarme:A1|contador:H2|divF:DIV3|estado'
-Slack : 3.435
+Type  : Slow Model Removal 'alarme:A1|contador:M1|divF:DIV4|estado'
+Slack : 1.841
 TNS   : 0.000
 
-Type  : Slow Model Removal 'alarme:A1|contador:M1|divF:DIV3|estado'
-Slack : 3.448
+Type  : Slow Model Removal 'cronometro:C1|contador:M1|divF:DIV4|estado'
+Slack : 1.867
 TNS   : 0.000
 
-Type  : Slow Model Removal 'horario:H1|contador:H2|divF:DIV1|estado'
-Slack : 3.450
+Type  : Slow Model Removal 'horario:H1|divF:DIV1|estado'
+Slack : 1.999
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:H1|divF:DIV4|estado'
+Slack : 2.001
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:S1|divF:DIV2|estado'
+Slack : 2.065
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:S1|divF:DIV1|estado'
+Slack : 2.079
 TNS   : 0.000
 
 Type  : Slow Model Removal 'cronometro:C1|contador:S2|divF:DIV2|estado'
-Slack : 3.499
+Slack : 2.269
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|clockH'
+Slack : 2.280
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:M1|divF:DIV4|estado'
+Slack : 2.290
 TNS   : 0.000
 
 Type  : Slow Model Removal 'cronometro:C1|contador:S2|divF:DIV1|estado'
-Slack : 3.518
+Slack : 2.534
 TNS   : 0.000
 
-Type  : Slow Model Removal 'alarme:A1|contador:M1|divF:DIV1|estado'
-Slack : 3.542
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:MS1|divF:DIV2|estado'
-Slack : 3.628
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:S2|divF:DIV2|estado'
-Slack : 3.728
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:H2|divF:DIV1|estado'
-Slack : 3.745
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:H1|divF:DIV1|estado'
-Slack : 3.745
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:H2|divF:DIV2|estado'
-Slack : 3.751
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:S2|divF:DIV3|estado'
-Slack : 3.751
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:H2|divF:DIV3|estado'
-Slack : 3.772
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:M1|divF:DIV2|estado'
-Slack : 3.796
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:S2|divF:DIV1|estado'
-Slack : 3.822
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:M1|divF:DIV1|estado'
-Slack : 3.858
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:M2|divF:DIV2|estado'
-Slack : 3.871
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:M2|divF:DIV1|estado'
-Slack : 3.883
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:M1|divF:DIV3|estado'
-Slack : 3.924
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:M1|divF:DIV2|estado'
-Slack : 3.933
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:H1|divF:DIV2|estado'
-Slack : 3.947
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:H1|divF:DIV2|estado'
-Slack : 3.958
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:H1|divF:DIV1|estado'
-Slack : 3.982
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:MS1|divF:DIV3|estado'
-Slack : 4.009
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:H1|divF:DIV3|estado'
-Slack : 4.031
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:MS1|divF:DIV1|estado'
-Slack : 4.042
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:M2|divF:DIV3|estado'
-Slack : 4.075
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:M1|divF:DIV3|estado'
-Slack : 4.092
+Type  : Slow Model Removal 'horario:H1|contador:S1|divF:DIV3|estado'
+Slack : 2.560
 TNS   : 0.000
 
 Type  : Slow Model Removal 'cronometro:C1|contador:M1|divF:DIV2|estado'
-Slack : 4.107
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:M2|divF:DIV3|estado'
-Slack : 4.145
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:M2|divF:DIV2|estado'
-Slack : 4.175
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:M2|divF:DIV1|estado'
-Slack : 4.205
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:M2|divF:DIV3|estado'
-Slack : 4.206
-TNS   : 0.000
-
-Type  : Slow Model Removal 'alarme:A1|contador:H2|divF:DIV2|estado'
-Slack : 4.218
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:H1|divF:DIV3|estado'
-Slack : 4.247
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:MS2|divF:DIV3|estado'
-Slack : 4.300
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:MS2|divF:DIV2|estado'
-Slack : 4.352
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:M2|divF:DIV1|estado'
-Slack : 4.355
-TNS   : 0.000
-
-Type  : Slow Model Removal 'horario:H1|contador:M2|divF:DIV2|estado'
-Slack : 4.367
+Slack : 2.567
 TNS   : 0.000
 
 Type  : Slow Model Removal 'cronometro:C1|contador:S1|divF:DIV1|estado'
-Slack : 4.495
+Slack : 2.604
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:M1|divF:DIV1|estado'
+Slack : 2.713
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:MS1|divF:DIV1|estado'
+Slack : 2.767
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Slack : 2.787
 TNS   : 0.000
 
 Type  : Slow Model Removal 'cronometro:C1|contador:MS2|divF:DIV1|estado'
-Slack : 4.505
+Slack : 2.794
 TNS   : 0.000
 
-Type  : Slow Model Removal 'horario:H1|contador:M1|divF:DIV1|estado'
-Slack : 4.671
-TNS   : 0.000
-
-Type  : Slow Model Removal 'cronometro:C1|contador:S1|divF:DIV2|estado'
-Slack : 4.808
+Type  : Slow Model Removal 'cronometro:C1|contador:MS2|divF:DIV2|estado'
+Slack : 2.799
 TNS   : 0.000
 
 Type  : Slow Model Removal 'cronometro:C1|contador:S1|divF:DIV3|estado'
-Slack : 5.003
+Slack : 2.810
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:S1|divF:DIV2|estado'
+Slack : 2.811
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:MS1|divF:DIV2|estado'
+Slack : 2.899
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Slack : 3.008
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:MS1|divF:DIV3|estado'
+Slack : 3.047
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:M2|divF:DIV1|estado'
+Slack : 3.344
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:M2|divF:DIV2|estado'
+Slack : 3.417
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:H2|divF:DIV3|estado'
+Slack : 3.459
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:S2|divF:DIV2|estado'
+Slack : 3.493
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Slack : 3.592
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cronometro:C1|contador:M2|divF:DIV3|estado'
+Slack : 3.647
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:M1|divF:DIV1|estado'
+Slack : 3.666
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:H1|divF:DIV2|estado'
+Slack : 3.714
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:M2|divF:DIV3|estado'
+Slack : 3.719
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:H1|divF:DIV3|estado'
+Slack : 3.723
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:S2|divF:DIV3|estado'
+Slack : 3.767
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:H2|divF:DIV2|estado'
+Slack : 3.806
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:H2|divF:DIV2|estado'
+Slack : 3.808
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:H2|divF:DIV1|estado'
+Slack : 3.830
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:H1|divF:DIV3|estado'
+Slack : 3.868
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:S2|divF:DIV1|estado'
+Slack : 3.950
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:M2|divF:DIV2|estado'
+Slack : 3.976
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:M1|divF:DIV2|estado'
+Slack : 3.981
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:H1|divF:DIV1|estado'
+Slack : 4.022
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:H2|divF:DIV1|estado'
+Slack : 4.041
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:H1|divF:DIV2|estado'
+Slack : 4.057
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:H1|divF:DIV1|estado'
+Slack : 4.103
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:M1|divF:DIV1|estado'
+Slack : 4.137
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:M2|divF:DIV3|estado'
+Slack : 4.178
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:M1|divF:DIV3|estado'
+Slack : 4.198
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:H2|divF:DIV3|estado'
+Slack : 4.340
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:M1|divF:DIV2|estado'
+Slack : 4.403
+TNS   : 0.000
+
+Type  : Slow Model Removal 'alarme:A1|contador:M1|divF:DIV3|estado'
+Slack : 4.404
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:M2|divF:DIV2|estado'
+Slack : 4.479
+TNS   : 0.000
+
+Type  : Slow Model Removal 'horario:H1|contador:M2|divF:DIV1|estado'
+Slack : 4.487
 TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'clock1'
@@ -1069,6 +1085,10 @@ TNS   : -5.222
 Type  : Slow Model Minimum Pulse Width 'modo'
 Slack : -1.222
 TNS   : -3.222
+
+Type  : Slow Model Minimum Pulse Width 'reset'
+Slack : -1.222
+TNS   : -2.222
 
 Type  : Slow Model Minimum Pulse Width 'strt'
 Slack : -1.222
@@ -1330,539 +1350,539 @@ Type  : Slow Model Minimum Pulse Width 'EscolhaModo[0]'
 Slack : 0.500
 TNS   : 0.000
 
-Type  : Fast Model Setup 'horario:H1|contador:S2|divF:DIV3|estado'
-Slack : -2.560
-TNS   : -63.155
-
-Type  : Fast Model Setup 'horario:H1|contador:S2|divF:DIV2|estado'
-Slack : -2.517
-TNS   : -65.179
-
-Type  : Fast Model Setup 'alarme:A1|contador:H1|divF:DIV3|estado'
-Slack : -2.400
-TNS   : -61.826
-
-Type  : Fast Model Setup 'horario:H1|contador:S2|divF:DIV1|estado'
-Slack : -2.346
-TNS   : -62.008
-
-Type  : Fast Model Setup 'alarme:A1|contador:H2|divF:DIV2|estado'
-Slack : -2.291
-TNS   : -59.349
-
-Type  : Fast Model Setup 'alarme:A1|contador:H1|divF:DIV2|estado'
-Slack : -2.260
-TNS   : -59.636
-
 Type  : Fast Model Setup 'alarme:A1|contador:M1|divF:DIV3|estado'
-Slack : -2.256
-TNS   : -59.960
-
-Type  : Fast Model Setup 'alarme:A1|contador:H1|divF:DIV1|estado'
-Slack : -2.251
-TNS   : -58.631
-
-Type  : Fast Model Setup 'horario:H1|contador:H1|divF:DIV3|estado'
-Slack : -2.246
-TNS   : -58.750
-
-Type  : Fast Model Setup 'alarme:A1|contador:M1|divF:DIV2|estado'
-Slack : -2.236
-TNS   : -59.360
-
-Type  : Fast Model Setup 'alarme:A1|contador:M2|divF:DIV1|estado'
-Slack : -2.234
-TNS   : -57.995
-
-Type  : Fast Model Setup 'cronometro:C1|contador:MS1|divF:DIV1|estado'
-Slack : -2.222
-TNS   : -59.255
-
-Type  : Fast Model Setup 'horario:H1|contador:H1|divF:DIV2|estado'
-Slack : -2.196
-TNS   : -57.622
-
-Type  : Fast Model Setup 'horario:H1|contador:H1|divF:DIV1|estado'
-Slack : -2.154
-TNS   : -54.468
-
-Type  : Fast Model Setup 'alarme:A1|contador:H2|divF:DIV3|estado'
-Slack : -2.152
-TNS   : -57.137
-
-Type  : Fast Model Setup 'horario:H1|contador:M2|divF:DIV2|estado'
-Slack : -2.148
-TNS   : -53.195
-
-Type  : Fast Model Setup 'horario:H1|contador:H2|divF:DIV3|estado'
-Slack : -2.141
-TNS   : -55.766
-
-Type  : Fast Model Setup 'horario:H1|contador:S1|divF:DIV1|estado'
-Slack : -2.139
-TNS   : -56.824
-
-Type  : Fast Model Setup 'horario:H1|contador:S1|divF:DIV3|estado'
-Slack : -2.135
-TNS   : -56.328
-
-Type  : Fast Model Setup 'alarme:A1|contador:M2|divF:DIV2|estado'
-Slack : -2.132
-TNS   : -54.715
+Slack : -2.548
+TNS   : -66.091
 
 Type  : Fast Model Setup 'alarme:A1|contador:M1|divF:DIV1|estado'
-Slack : -2.130
-TNS   : -56.365
+Slack : -2.501
+TNS   : -66.049
 
-Type  : Fast Model Setup 'horario:H1|contador:M1|divF:DIV2|estado'
-Slack : -2.129
-TNS   : -56.120
+Type  : Fast Model Setup 'alarme:A1|contador:M1|divF:DIV2|estado'
+Slack : -2.490
+TNS   : -64.522
 
-Type  : Fast Model Setup 'alarme:A1|contador:H2|divF:DIV1|estado'
-Slack : -2.126
-TNS   : -55.881
+Type  : Fast Model Setup 'horario:H1|contador:S2|divF:DIV1|estado'
+Slack : -2.427
+TNS   : -62.383
 
-Type  : Fast Model Setup 'cronometro:C1|contador:MS1|divF:DIV2|estado'
-Slack : -2.122
-TNS   : -55.199
+Type  : Fast Model Setup 'horario:H1|contador:S2|divF:DIV3|estado'
+Slack : -2.387
+TNS   : -62.346
 
-Type  : Fast Model Setup 'horario:H1|divF:DIV1|estado'
-Slack : -2.116
-TNS   : -54.535
-
-Type  : Fast Model Setup 'alarme:A1|contador:M2|divF:DIV3|estado'
-Slack : -2.101
-TNS   : -54.682
-
-Type  : Fast Model Setup 'horario:H1|contador:M2|divF:DIV1|estado'
-Slack : -2.099
-TNS   : -55.107
-
-Type  : Fast Model Setup 'cronometro:C1|contador:MS1|divF:DIV3|estado'
-Slack : -2.094
-TNS   : -53.801
+Type  : Fast Model Setup 'horario:H1|contador:H1|divF:DIV2|estado'
+Slack : -2.375
+TNS   : -60.395
 
 Type  : Fast Model Setup 'horario:H1|contador:S1|divF:DIV2|estado'
-Slack : -2.090
-TNS   : -53.953
+Slack : -2.285
+TNS   : -60.213
+
+Type  : Fast Model Setup 'horario:H1|divF:DIV1|estado'
+Slack : -2.280
+TNS   : -58.601
+
+Type  : Fast Model Setup 'horario:H1|contador:S2|divF:DIV2|estado'
+Slack : -2.278
+TNS   : -59.116
+
+Type  : Fast Model Setup 'alarme:A1|contador:M2|divF:DIV2|estado'
+Slack : -2.274
+TNS   : -59.712
+
+Type  : Fast Model Setup 'horario:H1|contador:H1|divF:DIV3|estado'
+Slack : -2.273
+TNS   : -59.200
+
+Type  : Fast Model Setup 'alarme:A1|contador:M2|divF:DIV3|estado'
+Slack : -2.268
+TNS   : -58.672
+
+Type  : Fast Model Setup 'horario:H1|contador:S1|divF:DIV3|estado'
+Slack : -2.235
+TNS   : -59.626
+
+Type  : Fast Model Setup 'horario:H1|contador:S1|divF:DIV1|estado'
+Slack : -2.230
+TNS   : -59.642
+
+Type  : Fast Model Setup 'alarme:A1|contador:H2|divF:DIV1|estado'
+Slack : -2.230
+TNS   : -59.400
+
+Type  : Fast Model Setup 'alarme:A1|contador:H2|divF:DIV3|estado'
+Slack : -2.229
+TNS   : -57.916
+
+Type  : Fast Model Setup 'horario:H1|contador:M2|divF:DIV1|estado'
+Slack : -2.229
+TNS   : -57.724
+
+Type  : Fast Model Setup 'horario:H1|contador:M1|divF:DIV2|estado'
+Slack : -2.220
+TNS   : -57.625
+
+Type  : Fast Model Setup 'horario:H1|contador:H2|divF:DIV1|estado'
+Slack : -2.205
+TNS   : -55.109
+
+Type  : Fast Model Setup 'horario:H1|contador:M2|divF:DIV2|estado'
+Slack : -2.192
+TNS   : -57.207
+
+Type  : Fast Model Setup 'horario:H1|contador:M2|divF:DIV3|estado'
+Slack : -2.189
+TNS   : -58.321
+
+Type  : Fast Model Setup 'alarme:A1|contador:M2|divF:DIV1|estado'
+Slack : -2.165
+TNS   : -57.480
+
+Type  : Fast Model Setup 'alarme:A1|contador:H1|divF:DIV3|estado'
+Slack : -2.137
+TNS   : -55.228
+
+Type  : Fast Model Setup 'horario:H1|contador:H1|divF:DIV1|estado'
+Slack : -2.133
+TNS   : -57.042
+
+Type  : Fast Model Setup 'alarme:A1|contador:H2|divF:DIV2|estado'
+Slack : -2.126
+TNS   : -56.315
 
 Type  : Fast Model Setup 'horario:H1|contador:M1|divF:DIV3|estado'
 Slack : -2.089
-TNS   : -54.010
-
-Type  : Fast Model Setup 'horario:H1|contador:M2|divF:DIV3|estado'
-Slack : -2.060
-TNS   : -54.543
-
-Type  : Fast Model Setup 'horario:H1|contador:H2|divF:DIV1|estado'
-Slack : -2.006
-TNS   : -53.628
-
-Type  : Fast Model Setup 'cronometro:C1|contador:S1|divF:DIV3|estado'
-Slack : -1.994
-TNS   : -50.628
+TNS   : -55.474
 
 Type  : Fast Model Setup 'horario:H1|contador:M1|divF:DIV1|estado'
-Slack : -1.956
-TNS   : -51.979
+Slack : -2.085
+TNS   : -55.409
 
-Type  : Fast Model Setup 'cronometro:C1|contador:S1|divF:DIV2|estado'
-Slack : -1.888
-TNS   : -48.995
+Type  : Fast Model Setup 'alarme:A1|contador:H1|divF:DIV1|estado'
+Slack : -2.024
+TNS   : -53.934
 
-Type  : Fast Model Setup 'cronometro:C1|contador:MS2|divF:DIV1|estado'
-Slack : -1.885
-TNS   : -48.565
+Type  : Fast Model Setup 'horario:H1|contador:H2|divF:DIV3|estado'
+Slack : -2.020
+TNS   : -49.363
 
-Type  : Fast Model Setup 'horario:H1|contador:H2|divF:DIV2|estado'
-Slack : -1.871
-TNS   : -47.620
+Type  : Fast Model Setup 'alarme:A1|contador:H1|divF:DIV2|estado'
+Slack : -1.994
+TNS   : -53.210
 
-Type  : Fast Model Setup 'cronometro:C1|contador:S1|divF:DIV1|estado'
-Slack : -1.854
-TNS   : -47.008
+Type  : Fast Model Setup 'cronometro:C1|contador:MS1|divF:DIV2|estado'
+Slack : -1.976
+TNS   : -53.116
 
-Type  : Fast Model Setup 'cronometro:C1|contador:MS2|divF:DIV3|estado'
-Slack : -1.828
-TNS   : -44.809
-
-Type  : Fast Model Setup 'cronometro:C1|contador:M2|divF:DIV1|estado'
-Slack : -1.733
-TNS   : -44.245
-
-Type  : Fast Model Setup 'cronometro:C1|contador:MS2|divF:DIV2|estado'
-Slack : -1.704
-TNS   : -44.613
-
-Type  : Fast Model Setup 'cronometro:C1|contador:M2|divF:DIV3|estado'
-Slack : -1.687
-TNS   : -42.542
-
-Type  : Fast Model Setup 'cronometro:C1|contador:M2|divF:DIV2|estado'
-Slack : -1.686
-TNS   : -40.971
-
-Type  : Fast Model Setup 'cronometro:C1|contador:S2|divF:DIV2|estado'
-Slack : -1.650
-TNS   : -42.622
+Type  : Fast Model Setup 'cronometro:C1|contador:MS1|divF:DIV3|estado'
+Slack : -1.971
+TNS   : -52.908
 
 Type  : Fast Model Setup 'cronometro:C1|contador:M1|divF:DIV1|estado'
-Slack : -1.629
-TNS   : -41.101
+Slack : -1.965
+TNS   : -49.888
 
-Type  : Fast Model Setup 'cronometro:C1|contador:S2|divF:DIV1|estado'
-Slack : -1.605
-TNS   : -41.322
+Type  : Fast Model Setup 'horario:H1|contador:H2|divF:DIV2|estado'
+Slack : -1.925
+TNS   : -50.836
 
-Type  : Fast Model Setup 'cronometro:C1|contador:M1|divF:DIV3|estado'
-Slack : -1.583
-TNS   : -40.651
+Type  : Fast Model Setup 'cronometro:C1|contador:S1|divF:DIV3|estado'
+Slack : -1.879
+TNS   : -47.282
+
+Type  : Fast Model Setup 'cronometro:C1|contador:S1|divF:DIV1|estado'
+Slack : -1.874
+TNS   : -47.436
 
 Type  : Fast Model Setup 'cronometro:C1|contador:M1|divF:DIV2|estado'
-Slack : -1.524
-TNS   : -39.743
+Slack : -1.871
+TNS   : -48.449
+
+Type  : Fast Model Setup 'cronometro:C1|contador:MS1|divF:DIV1|estado'
+Slack : -1.867
+TNS   : -49.946
+
+Type  : Fast Model Setup 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Slack : -1.839
+TNS   : -48.251
+
+Type  : Fast Model Setup 'cronometro:C1|contador:S1|divF:DIV2|estado'
+Slack : -1.745
+TNS   : -45.765
+
+Type  : Fast Model Setup 'cronometro:C1|contador:S2|divF:DIV2|estado'
+Slack : -1.744
+TNS   : -42.345
+
+Type  : Fast Model Setup 'cronometro:C1|contador:MS2|divF:DIV1|estado'
+Slack : -1.743
+TNS   : -45.644
+
+Type  : Fast Model Setup 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Slack : -1.743
+TNS   : -45.499
+
+Type  : Fast Model Setup 'cronometro:C1|contador:MS2|divF:DIV2|estado'
+Slack : -1.743
+TNS   : -42.841
+
+Type  : Fast Model Setup 'cronometro:C1|contador:S2|divF:DIV1|estado'
+Slack : -1.621
+TNS   : -42.557
+
+Type  : Fast Model Setup 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Slack : -1.607
+TNS   : -39.786
+
+Type  : Fast Model Setup 'cronometro:C1|contador:M2|divF:DIV3|estado'
+Slack : -1.583
+TNS   : -41.533
+
+Type  : Fast Model Setup 'cronometro:C1|contador:M2|divF:DIV2|estado'
+Slack : -1.576
+TNS   : -38.354
 
 Type  : Fast Model Setup 'EscolhaModo[0]'
-Slack : -1.498
-TNS   : -7.226
-
-Type  : Fast Model Setup 'horario:H1|contador:S1|divF:DIV4|estado'
-Slack : -1.230
-TNS   : -31.061
-
-Type  : Fast Model Setup 'alarme:A1|contador:H1|divF:DIV4|estado'
-Slack : -1.062
-TNS   : -28.415
-
-Type  : Fast Model Setup 'clock1'
-Slack : -1.059
-TNS   : -32.298
-
-Type  : Fast Model Setup 'alarme:A1|clockH'
-Slack : -0.978
-TNS   : -26.006
-
-Type  : Fast Model Setup 'cronometro:C1|divF:DIV1|estado'
-Slack : -0.974
-TNS   : -25.966
-
-Type  : Fast Model Setup 'horario:H1|clockH'
-Slack : -0.959
-TNS   : -24.939
-
-Type  : Fast Model Setup 'horario:H1|clockM'
-Slack : -0.943
-TNS   : -25.068
-
-Type  : Fast Model Setup 'alarme:A1|contador:M1|divF:DIV4|estado'
-Slack : -0.925
-TNS   : -19.779
+Slack : -1.442
+TNS   : -7.649
 
 Type  : Fast Model Setup 'alarme:A1|clockM'
-Slack : -0.913
-TNS   : -22.193
+Slack : -1.249
+TNS   : -32.337
 
-Type  : Fast Model Setup 'cronometro:C1|contador:MS2|divF:DIV4|estado'
-Slack : -0.877
-TNS   : -15.349
+Type  : Fast Model Setup 'clock1'
+Slack : -1.189
+TNS   : -37.009
 
-Type  : Fast Model Setup 'horario:H1|contador:H1|divF:DIV4|estado'
-Slack : -0.865
-TNS   : -22.714
+Type  : Fast Model Setup 'horario:H1|clockH'
+Slack : -1.173
+TNS   : -27.553
+
+Type  : Fast Model Setup 'alarme:A1|contador:M1|divF:DIV4|estado'
+Slack : -1.064
+TNS   : -26.956
+
+Type  : Fast Model Setup 'horario:H1|clockM'
+Slack : -1.013
+TNS   : -27.451
+
+Type  : Fast Model Setup 'cronometro:C1|divF:DIV1|estado'
+Slack : -0.967
+TNS   : -25.440
+
+Type  : Fast Model Setup 'alarme:A1|clockH'
+Slack : -0.910
+TNS   : -20.018
 
 Type  : Fast Model Setup 'cronometro:C1|contador:S2|divF:DIV3|estado'
-Slack : -0.832
-TNS   : -28.473
+Slack : -0.894
+TNS   : -25.266
 
 Type  : Fast Model Setup 'horario:H1|contador:M1|divF:DIV4|estado'
-Slack : -0.794
-TNS   : -21.346
-
-Type  : Fast Model Setup 'cronometro:C1|contador:MS1|divF:DIV4|estado'
-Slack : -0.638
-TNS   : -12.497
-
-Type  : Fast Model Setup 'cronometro:C1|contador:S1|divF:DIV4|estado'
-Slack : -0.632
-TNS   : -13.710
+Slack : -0.893
+TNS   : -21.437
 
 Type  : Fast Model Setup 'cronometro:C1|contador:M1|divF:DIV4|estado'
-Slack : -0.629
-TNS   : -13.712
+Slack : -0.845
+TNS   : -15.416
 
-Type  : Fast Model Setup 'strt'
-Slack : -0.097
-TNS   : -0.097
+Type  : Fast Model Setup 'horario:H1|contador:S1|divF:DIV4|estado'
+Slack : -0.842
+TNS   : -19.389
+
+Type  : Fast Model Setup 'cronometro:C1|contador:MS2|divF:DIV4|estado'
+Slack : -0.839
+TNS   : -14.567
+
+Type  : Fast Model Setup 'alarme:A1|contador:H1|divF:DIV4|estado'
+Slack : -0.834
+TNS   : -20.512
+
+Type  : Fast Model Setup 'cronometro:C1|contador:S1|divF:DIV4|estado'
+Slack : -0.831
+TNS   : -14.415
+
+Type  : Fast Model Setup 'horario:H1|contador:H1|divF:DIV4|estado'
+Slack : -0.714
+TNS   : -19.135
+
+Type  : Fast Model Setup 'cronometro:C1|contador:MS1|divF:DIV4|estado'
+Slack : -0.636
+TNS   : -13.269
 
 Type  : Fast Model Setup 'set'
-Slack : 0.011
+Slack : -0.004
+TNS   : -0.008
+
+Type  : Fast Model Setup 'strt'
+Slack : 0.299
 TNS   : 0.000
 
 Type  : Fast Model Setup 'modo'
-Slack : 0.164
+Slack : 0.337
 TNS   : 0.000
 
-Type  : Fast Model Hold 'cronometro:C1|contador:MS2|divF:DIV4|estado'
-Slack : -1.956
-TNS   : -3.431
-
-Type  : Fast Model Hold 'alarme:A1|clockM'
-Slack : -1.928
-TNS   : -17.764
-
-Type  : Fast Model Hold 'cronometro:C1|contador:MS1|divF:DIV4|estado'
-Slack : -1.928
-TNS   : -3.224
-
-Type  : Fast Model Hold 'alarme:A1|contador:M1|divF:DIV4|estado'
-Slack : -1.913
-TNS   : -13.970
+Type  : Fast Model Setup 'reset'
+Slack : 0.665
+TNS   : 0.000
 
 Type  : Fast Model Hold 'horario:H1|contador:S1|divF:DIV4|estado'
-Slack : -1.896
-TNS   : -32.189
-
-Type  : Fast Model Hold 'horario:H1|contador:M1|divF:DIV4|estado'
-Slack : -1.874
-TNS   : -27.020
-
-Type  : Fast Model Hold 'alarme:A1|clockH'
-Slack : -1.868
-TNS   : -29.360
-
-Type  : Fast Model Hold 'horario:H1|clockM'
-Slack : -1.805
-TNS   : -23.859
-
-Type  : Fast Model Hold 'horario:H1|contador:H1|divF:DIV4|estado'
-Slack : -1.794
-TNS   : -16.513
-
-Type  : Fast Model Hold 'horario:H1|clockH'
-Slack : -1.790
-TNS   : -6.728
-
-Type  : Fast Model Hold 'cronometro:C1|contador:S1|divF:DIV4|estado'
-Slack : -1.767
-TNS   : -3.064
-
-Type  : Fast Model Hold 'cronometro:C1|contador:M1|divF:DIV4|estado'
-Slack : -1.763
-TNS   : -3.162
-
-Type  : Fast Model Hold 'cronometro:C1|divF:DIV1|estado'
-Slack : -1.745
-TNS   : -7.940
+Slack : -2.096
+TNS   : -28.938
 
 Type  : Fast Model Hold 'alarme:A1|contador:H1|divF:DIV4|estado'
-Slack : -1.740
-TNS   : -26.759
+Slack : -2.017
+TNS   : -24.025
 
 Type  : Fast Model Hold 'cronometro:C1|contador:S2|divF:DIV3|estado'
-Slack : -1.729
-TNS   : -2.963
+Slack : -1.962
+TNS   : -5.958
+
+Type  : Fast Model Hold 'alarme:A1|clockM'
+Slack : -1.949
+TNS   : -24.049
+
+Type  : Fast Model Hold 'horario:H1|contador:M1|divF:DIV4|estado'
+Slack : -1.915
+TNS   : -30.666
+
+Type  : Fast Model Hold 'alarme:A1|contador:M1|divF:DIV4|estado'
+Slack : -1.906
+TNS   : -20.460
+
+Type  : Fast Model Hold 'cronometro:C1|contador:MS1|divF:DIV4|estado'
+Slack : -1.866
+TNS   : -3.109
+
+Type  : Fast Model Hold 'cronometro:C1|contador:MS2|divF:DIV4|estado'
+Slack : -1.865
+TNS   : -3.269
+
+Type  : Fast Model Hold 'horario:H1|contador:H1|divF:DIV4|estado'
+Slack : -1.840
+TNS   : -16.501
+
+Type  : Fast Model Hold 'alarme:A1|clockH'
+Slack : -1.785
+TNS   : -18.840
+
+Type  : Fast Model Hold 'cronometro:C1|contador:S1|divF:DIV4|estado'
+Slack : -1.744
+TNS   : -3.207
+
+Type  : Fast Model Hold 'cronometro:C1|contador:M1|divF:DIV4|estado'
+Slack : -1.690
+TNS   : -2.852
+
+Type  : Fast Model Hold 'horario:H1|clockM'
+Slack : -1.680
+TNS   : -23.466
+
+Type  : Fast Model Hold 'horario:H1|clockH'
+Slack : -1.597
+TNS   : -6.362
 
 Type  : Fast Model Hold 'clock1'
-Slack : -1.588
-TNS   : -5.967
+Slack : -1.583
+TNS   : -6.475
+
+Type  : Fast Model Hold 'cronometro:C1|divF:DIV1|estado'
+Slack : -1.535
+TNS   : -5.620
 
 Type  : Fast Model Hold 'modo'
-Slack : -1.430
-TNS   : -2.660
-
-Type  : Fast Model Hold 'set'
-Slack : -1.077
-TNS   : -3.261
+Slack : -1.381
+TNS   : -2.739
 
 Type  : Fast Model Hold 'strt'
-Slack : -0.831
-TNS   : -0.831
+Slack : -1.312
+TNS   : -1.312
+
+Type  : Fast Model Hold 'set'
+Slack : -1.017
+TNS   : -3.873
+
+Type  : Fast Model Hold 'horario:H1|contador:M1|divF:DIV1|estado'
+Slack : -0.734
+TNS   : -0.734
+
+Type  : Fast Model Hold 'cronometro:C1|contador:M2|divF:DIV2|estado'
+Slack : -0.733
+TNS   : -0.733
+
+Type  : Fast Model Hold 'horario:H1|contador:S2|divF:DIV2|estado'
+Slack : -0.722
+TNS   : -0.722
+
+Type  : Fast Model Hold 'alarme:A1|contador:M1|divF:DIV2|estado'
+Slack : -0.720
+TNS   : -0.720
 
 Type  : Fast Model Hold 'horario:H1|divF:DIV1|estado'
-Slack : -0.765
-TNS   : -1.111
+Slack : -0.716
+TNS   : -1.037
 
-Type  : Fast Model Hold 'horario:H1|contador:H2|divF:DIV1|estado'
-Slack : -0.742
-TNS   : -0.742
-
-Type  : Fast Model Hold 'alarme:A1|contador:M1|divF:DIV1|estado'
-Slack : -0.741
-TNS   : -0.741
-
-Type  : Fast Model Hold 'horario:H1|contador:M1|divF:DIV2|estado'
-Slack : -0.725
-TNS   : -0.725
-
-Type  : Fast Model Hold 'horario:H1|contador:S2|divF:DIV1|estado'
+Type  : Fast Model Hold 'alarme:A1|contador:M2|divF:DIV1|estado'
 Slack : -0.699
 TNS   : -0.699
 
+Type  : Fast Model Hold 'alarme:A1|contador:M2|divF:DIV2|estado'
+Slack : -0.655
+TNS   : -0.655
+
 Type  : Fast Model Hold 'alarme:A1|contador:H1|divF:DIV2|estado'
-Slack : -0.636
-TNS   : -0.636
+Slack : -0.647
+TNS   : -0.647
 
-Type  : Fast Model Hold 'cronometro:C1|contador:S1|divF:DIV1|estado'
-Slack : -0.635
-TNS   : -0.635
-
-Type  : Fast Model Hold 'alarme:A1|contador:M2|divF:DIV1|estado'
-Slack : -0.633
-TNS   : -0.633
-
-Type  : Fast Model Hold 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Type  : Fast Model Hold 'alarme:A1|contador:H2|divF:DIV2|estado'
 Slack : -0.632
 TNS   : -0.632
 
-Type  : Fast Model Hold 'horario:H1|contador:S2|divF:DIV2|estado'
-Slack : -0.630
-TNS   : -0.630
-
-Type  : Fast Model Hold 'alarme:A1|contador:H2|divF:DIV1|estado'
-Slack : -0.628
-TNS   : -0.628
-
-Type  : Fast Model Hold 'alarme:A1|contador:M1|divF:DIV3|estado'
+Type  : Fast Model Hold 'cronometro:C1|contador:MS2|divF:DIV2|estado'
 Slack : -0.626
 TNS   : -0.626
 
-Type  : Fast Model Hold 'cronometro:C1|contador:MS2|divF:DIV3|estado'
-Slack : -0.625
-TNS   : -0.625
+Type  : Fast Model Hold 'cronometro:C1|contador:S1|divF:DIV2|estado'
+Slack : -0.626
+TNS   : -0.626
 
-Type  : Fast Model Hold 'alarme:A1|contador:M2|divF:DIV2|estado'
-Slack : -0.622
-TNS   : -0.622
+Type  : Fast Model Hold 'horario:H1|contador:H1|divF:DIV3|estado'
+Slack : -0.620
+TNS   : -0.620
 
-Type  : Fast Model Hold 'cronometro:C1|contador:S2|divF:DIV1|estado'
-Slack : -0.622
-TNS   : -0.622
-
-Type  : Fast Model Hold 'horario:H1|contador:S1|divF:DIV2|estado'
-Slack : -0.622
-TNS   : -0.622
-
-Type  : Fast Model Hold 'horario:H1|contador:H1|divF:DIV2|estado'
+Type  : Fast Model Hold 'horario:H1|contador:H2|divF:DIV2|estado'
 Slack : -0.619
 TNS   : -0.619
 
-Type  : Fast Model Hold 'alarme:A1|contador:H1|divF:DIV1|estado'
+Type  : Fast Model Hold 'cronometro:C1|contador:M1|divF:DIV1|estado'
+Slack : -0.617
+TNS   : -0.617
+
+Type  : Fast Model Hold 'cronometro:C1|contador:S1|divF:DIV3|estado'
 Slack : -0.616
 TNS   : -0.616
 
-Type  : Fast Model Hold 'horario:H1|contador:M1|divF:DIV3|estado'
-Slack : -0.613
-TNS   : -0.613
+Type  : Fast Model Hold 'horario:H1|contador:M2|divF:DIV2|estado'
+Slack : -0.615
+TNS   : -0.615
 
-Type  : Fast Model Hold 'cronometro:C1|contador:M1|divF:DIV2|estado'
-Slack : -0.611
-TNS   : -0.611
+Type  : Fast Model Hold 'cronometro:C1|contador:MS2|divF:DIV1|estado'
+Slack : -0.612
+TNS   : -0.612
+
+Type  : Fast Model Hold 'cronometro:C1|contador:S2|divF:DIV1|estado'
+Slack : -0.610
+TNS   : -0.610
 
 Type  : Fast Model Hold 'cronometro:C1|contador:S2|divF:DIV2|estado'
-Slack : -0.611
-TNS   : -0.611
-
-Type  : Fast Model Hold 'horario:H1|contador:H2|divF:DIV2|estado'
-Slack : -0.602
-TNS   : -0.602
-
-Type  : Fast Model Hold 'horario:H1|contador:S1|divF:DIV1|estado'
-Slack : -0.601
-TNS   : -0.601
-
-Type  : Fast Model Hold 'alarme:A1|contador:M1|divF:DIV2|estado'
-Slack : -0.600
-TNS   : -0.600
-
-Type  : Fast Model Hold 'horario:H1|contador:H1|divF:DIV1|estado'
-Slack : -0.591
-TNS   : -0.591
+Slack : -0.609
+TNS   : -0.609
 
 Type  : Fast Model Hold 'cronometro:C1|contador:MS1|divF:DIV1|estado'
+Slack : -0.606
+TNS   : -0.606
+
+Type  : Fast Model Hold 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Slack : -0.598
+TNS   : -0.598
+
+Type  : Fast Model Hold 'horario:H1|contador:M2|divF:DIV1|estado'
+Slack : -0.592
+TNS   : -0.592
+
+Type  : Fast Model Hold 'horario:H1|contador:H2|divF:DIV1|estado'
 Slack : -0.589
 TNS   : -0.589
 
-Type  : Fast Model Hold 'alarme:A1|contador:H1|divF:DIV3|estado'
-Slack : -0.588
-TNS   : -0.588
+Type  : Fast Model Hold 'horario:H1|contador:S1|divF:DIV2|estado'
+Slack : -0.585
+TNS   : -0.585
 
-Type  : Fast Model Hold 'cronometro:C1|contador:M2|divF:DIV2|estado'
-Slack : -0.588
-TNS   : -0.588
-
-Type  : Fast Model Hold 'horario:H1|contador:M2|divF:DIV1|estado'
-Slack : -0.586
-TNS   : -0.586
-
-Type  : Fast Model Hold 'cronometro:C1|contador:MS2|divF:DIV2|estado'
+Type  : Fast Model Hold 'cronometro:C1|contador:M1|divF:DIV2|estado'
 Slack : -0.584
 TNS   : -0.584
 
-Type  : Fast Model Hold 'cronometro:C1|contador:M1|divF:DIV1|estado'
-Slack : -0.582
-TNS   : -0.582
+Type  : Fast Model Hold 'horario:H1|contador:S1|divF:DIV1|estado'
+Slack : -0.580
+TNS   : -0.580
 
-Type  : Fast Model Hold 'cronometro:C1|contador:MS1|divF:DIV2|estado'
-Slack : -0.582
-TNS   : -0.582
+Type  : Fast Model Hold 'cronometro:C1|contador:S1|divF:DIV1|estado'
+Slack : -0.578
+TNS   : -0.578
 
-Type  : Fast Model Hold 'EscolhaModo[0]'
-Slack : -0.552
-TNS   : -0.552
+Type  : Fast Model Hold 'alarme:A1|contador:H1|divF:DIV3|estado'
+Slack : -0.574
+TNS   : -0.574
 
-Type  : Fast Model Hold 'horario:H1|contador:M2|divF:DIV2|estado'
-Slack : -0.521
-TNS   : -0.521
-
-Type  : Fast Model Hold 'cronometro:C1|contador:M2|divF:DIV1|estado'
-Slack : -0.497
-TNS   : -0.497
-
-Type  : Fast Model Hold 'cronometro:C1|contador:MS2|divF:DIV1|estado'
-Slack : -0.496
-TNS   : -0.496
-
-Type  : Fast Model Hold 'cronometro:C1|contador:S1|divF:DIV2|estado'
-Slack : -0.491
-TNS   : -0.491
-
-Type  : Fast Model Hold 'cronometro:C1|contador:MS1|divF:DIV3|estado'
-Slack : -0.488
-TNS   : -0.488
-
-Type  : Fast Model Hold 'horario:H1|contador:H1|divF:DIV3|estado'
-Slack : -0.487
-TNS   : -0.487
-
-Type  : Fast Model Hold 'cronometro:C1|contador:S1|divF:DIV3|estado'
-Slack : -0.402
-TNS   : -0.402
-
-Type  : Fast Model Hold 'horario:H1|contador:M1|divF:DIV1|estado'
-Slack : -0.402
-TNS   : -0.402
+Type  : Fast Model Hold 'alarme:A1|contador:M1|divF:DIV3|estado'
+Slack : -0.504
+TNS   : -0.504
 
 Type  : Fast Model Hold 'horario:H1|contador:S1|divF:DIV3|estado'
+Slack : -0.494
+TNS   : -0.494
+
+Type  : Fast Model Hold 'alarme:A1|contador:H1|divF:DIV1|estado'
+Slack : -0.492
+TNS   : -0.492
+
+Type  : Fast Model Hold 'horario:H1|contador:M1|divF:DIV3|estado'
+Slack : -0.492
+TNS   : -0.492
+
+Type  : Fast Model Hold 'horario:H1|contador:H1|divF:DIV2|estado'
+Slack : -0.490
+TNS   : -0.490
+
+Type  : Fast Model Hold 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Slack : -0.486
+TNS   : -0.486
+
+Type  : Fast Model Hold 'horario:H1|contador:S2|divF:DIV1|estado'
+Slack : -0.486
+TNS   : -0.486
+
+Type  : Fast Model Hold 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Slack : -0.485
+TNS   : -0.485
+
+Type  : Fast Model Hold 'alarme:A1|contador:H2|divF:DIV1|estado'
+Slack : -0.482
+TNS   : -0.482
+
+Type  : Fast Model Hold 'cronometro:C1|contador:MS1|divF:DIV2|estado'
+Slack : -0.471
+TNS   : -0.471
+
+Type  : Fast Model Hold 'horario:H1|contador:H1|divF:DIV1|estado'
+Slack : -0.471
+TNS   : -0.471
+
+Type  : Fast Model Hold 'alarme:A1|contador:M1|divF:DIV1|estado'
+Slack : -0.404
+TNS   : -0.404
+
+Type  : Fast Model Hold 'cronometro:C1|contador:MS1|divF:DIV3|estado'
 Slack : -0.398
 TNS   : -0.398
 
-Type  : Fast Model Hold 'alarme:A1|contador:H2|divF:DIV2|estado'
-Slack : -0.397
-TNS   : -0.397
+Type  : Fast Model Hold 'horario:H1|contador:M1|divF:DIV2|estado'
+Slack : -0.398
+TNS   : -0.398
 
-Type  : Fast Model Hold 'horario:H1|contador:S2|divF:DIV3|estado'
-Slack : -0.029
-TNS   : -0.029
+Type  : Fast Model Hold 'EscolhaModo[0]'
+Slack : -0.241
+TNS   : -0.249
 
-Type  : Fast Model Hold 'horario:H1|contador:M2|divF:DIV3|estado'
-Slack : 0.064
-TNS   : 0.000
-
-Type  : Fast Model Hold 'alarme:A1|contador:H2|divF:DIV3|estado'
-Slack : 0.171
+Type  : Fast Model Hold 'horario:H1|contador:H2|divF:DIV3|estado'
+Slack : 0.114
 TNS   : 0.000
 
 Type  : Fast Model Hold 'alarme:A1|contador:M2|divF:DIV3|estado'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast Model Hold 'alarme:A1|contador:H2|divF:DIV3|estado'
 Slack : 0.215
 TNS   : 0.000
 
@@ -1870,520 +1890,536 @@ Type  : Fast Model Hold 'cronometro:C1|contador:M2|divF:DIV3|estado'
 Slack : 0.215
 TNS   : 0.000
 
-Type  : Fast Model Hold 'horario:H1|contador:H2|divF:DIV3|estado'
+Type  : Fast Model Hold 'horario:H1|contador:M2|divF:DIV3|estado'
 Slack : 0.215
 TNS   : 0.000
 
-Type  : Fast Model Recovery 'cronometro:C1|contador:S1|divF:DIV3|estado'
-Slack : -2.144
-TNS   : -2.144
+Type  : Fast Model Hold 'horario:H1|contador:S2|divF:DIV3|estado'
+Slack : 0.215
+TNS   : 0.000
 
-Type  : Fast Model Recovery 'horario:H1|contador:M1|divF:DIV1|estado'
-Slack : -2.118
-TNS   : -2.118
+Type  : Fast Model Hold 'reset'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'alarme:A1|contador:M1|divF:DIV3|estado'
+Slack : -2.230
+TNS   : -2.230
+
+Type  : Fast Model Recovery 'alarme:A1|contador:H2|divF:DIV3|estado'
+Slack : -2.148
+TNS   : -2.148
+
+Type  : Fast Model Recovery 'horario:H1|contador:S2|divF:DIV1|estado'
+Slack : -2.137
+TNS   : -2.137
+
+Type  : Fast Model Recovery 'horario:H1|contador:M1|divF:DIV2|estado'
+Slack : -2.121
+TNS   : -2.121
 
 Type  : Fast Model Recovery 'horario:H1|contador:S1|divF:DIV3|estado'
-Slack : -2.092
-TNS   : -2.092
+Slack : -2.121
+TNS   : -2.121
+
+Type  : Fast Model Recovery 'alarme:A1|contador:M1|divF:DIV1|estado'
+Slack : -2.107
+TNS   : -2.107
+
+Type  : Fast Model Recovery 'horario:H1|contador:S2|divF:DIV3|estado'
+Slack : -2.072
+TNS   : -2.072
 
 Type  : Fast Model Recovery 'alarme:A1|contador:M1|divF:DIV2|estado'
-Slack : -2.060
-TNS   : -2.060
+Slack : -2.032
+TNS   : -2.032
 
-Type  : Fast Model Recovery 'cronometro:C1|contador:S1|divF:DIV2|estado'
-Slack : -2.055
-TNS   : -2.055
+Type  : Fast Model Recovery 'horario:H1|contador:M1|divF:DIV3|estado'
+Slack : -2.031
+TNS   : -2.031
 
-Type  : Fast Model Recovery 'alarme:A1|contador:M2|divF:DIV3|estado'
-Slack : -1.996
-TNS   : -1.996
+Type  : Fast Model Recovery 'alarme:A1|contador:H2|divF:DIV1|estado'
+Slack : -2.029
+TNS   : -2.029
 
-Type  : Fast Model Recovery 'alarme:A1|contador:M2|divF:DIV1|estado'
+Type  : Fast Model Recovery 'alarme:A1|contador:H1|divF:DIV1|estado'
+Slack : -2.012
+TNS   : -2.012
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Slack : -2.004
+TNS   : -2.004
+
+Type  : Fast Model Recovery 'horario:H1|contador:M2|divF:DIV1|estado'
 Slack : -1.989
 TNS   : -1.989
 
-Type  : Fast Model Recovery 'cronometro:C1|contador:MS2|divF:DIV1|estado'
-Slack : -1.969
-TNS   : -1.969
-
-Type  : Fast Model Recovery 'alarme:A1|contador:M1|divF:DIV1|estado'
-Slack : -1.952
-TNS   : -1.952
-
 Type  : Fast Model Recovery 'horario:H1|contador:M2|divF:DIV2|estado'
-Slack : -1.920
-TNS   : -1.920
+Slack : -1.982
+TNS   : -1.982
 
-Type  : Fast Model Recovery 'alarme:A1|contador:H2|divF:DIV2|estado'
-Slack : -1.904
-TNS   : -1.904
+Type  : Fast Model Recovery 'alarme:A1|contador:H1|divF:DIV3|estado'
+Slack : -1.971
+TNS   : -1.971
 
-Type  : Fast Model Recovery 'cronometro:C1|contador:MS2|divF:DIV2|estado'
-Slack : -1.904
-TNS   : -1.904
+Type  : Fast Model Recovery 'horario:H1|contador:S2|divF:DIV2|estado'
+Slack : -1.940
+TNS   : -1.940
 
-Type  : Fast Model Recovery 'cronometro:C1|contador:S1|divF:DIV1|estado'
-Slack : -1.904
-TNS   : -1.904
+Type  : Fast Model Recovery 'horario:H1|contador:H1|divF:DIV1|estado'
+Slack : -1.938
+TNS   : -1.938
+
+Type  : Fast Model Recovery 'horario:H1|contador:H1|divF:DIV2|estado'
+Slack : -1.923
+TNS   : -1.923
 
 Type  : Fast Model Recovery 'horario:H1|contador:S1|divF:DIV1|estado'
+Slack : -1.907
+TNS   : -1.907
+
+Type  : Fast Model Recovery 'horario:H1|contador:S1|divF:DIV2|estado'
 Slack : -1.903
 TNS   : -1.903
 
-Type  : Fast Model Recovery 'alarme:A1|contador:M1|divF:DIV3|estado'
-Slack : -1.898
-TNS   : -1.898
+Type  : Fast Model Recovery 'alarme:A1|contador:H2|divF:DIV2|estado'
+Slack : -1.899
+TNS   : -1.899
 
-Type  : Fast Model Recovery 'cronometro:C1|contador:MS1|divF:DIV1|estado'
-Slack : -1.883
-TNS   : -1.883
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:MS1|divF:DIV3|estado'
-Slack : -1.875
-TNS   : -1.875
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:MS2|divF:DIV3|estado'
-Slack : -1.873
-TNS   : -1.873
-
-Type  : Fast Model Recovery 'horario:H1|contador:H1|divF:DIV3|estado'
-Slack : -1.870
-TNS   : -1.870
-
-Type  : Fast Model Recovery 'horario:H1|contador:S2|divF:DIV1|estado'
-Slack : -1.870
-TNS   : -1.870
-
-Type  : Fast Model Recovery 'horario:H1|contador:S1|divF:DIV2|estado'
-Slack : -1.868
-TNS   : -1.868
-
-Type  : Fast Model Recovery 'horario:H1|contador:S2|divF:DIV3|estado'
-Slack : -1.855
-TNS   : -1.855
-
-Type  : Fast Model Recovery 'horario:H1|contador:S2|divF:DIV2|estado'
-Slack : -1.848
-TNS   : -1.848
-
-Type  : Fast Model Recovery 'alarme:A1|contador:H1|divF:DIV3|estado'
-Slack : -1.847
-TNS   : -1.847
+Type  : Fast Model Recovery 'horario:H1|divF:DIV1|estado'
+Slack : -1.880
+TNS   : -1.880
 
 Type  : Fast Model Recovery 'alarme:A1|contador:M2|divF:DIV2|estado'
-Slack : -1.847
-TNS   : -1.847
+Slack : -1.877
+TNS   : -1.877
 
-Type  : Fast Model Recovery 'alarme:A1|contador:H1|divF:DIV1|estado'
-Slack : -1.827
-TNS   : -1.827
+Type  : Fast Model Recovery 'cronometro:C1|contador:M1|divF:DIV1|estado'
+Slack : -1.871
+TNS   : -1.871
 
-Type  : Fast Model Recovery 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Type  : Fast Model Recovery 'alarme:A1|contador:H1|divF:DIV2|estado'
+Slack : -1.869
+TNS   : -1.869
+
+Type  : Fast Model Recovery 'horario:H1|contador:M2|divF:DIV3|estado'
+Slack : -1.857
+TNS   : -1.857
+
+Type  : Fast Model Recovery 'horario:H1|contador:H2|divF:DIV1|estado'
+Slack : -1.822
+TNS   : -1.822
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:MS2|divF:DIV1|estado'
+Slack : -1.815
+TNS   : -1.815
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Slack : -1.812
+TNS   : -1.812
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:MS2|divF:DIV2|estado'
+Slack : -1.811
+TNS   : -1.811
+
+Type  : Fast Model Recovery 'horario:H1|contador:H2|divF:DIV2|estado'
+Slack : -1.811
+TNS   : -1.811
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:S1|divF:DIV2|estado'
+Slack : -1.809
+TNS   : -1.809
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:S1|divF:DIV3|estado'
 Slack : -1.808
 TNS   : -1.808
 
-Type  : Fast Model Recovery 'alarme:A1|contador:H1|divF:DIV2|estado'
-Slack : -1.798
-TNS   : -1.798
+Type  : Fast Model Recovery 'cronometro:C1|contador:M1|divF:DIV2|estado'
+Slack : -1.806
+TNS   : -1.806
 
-Type  : Fast Model Recovery 'horario:H1|contador:M2|divF:DIV3|estado'
-Slack : -1.792
-TNS   : -1.792
+Type  : Fast Model Recovery 'horario:H1|contador:M1|divF:DIV1|estado'
+Slack : -1.785
+TNS   : -1.785
 
-Type  : Fast Model Recovery 'horario:H1|contador:H2|divF:DIV3|estado'
-Slack : -1.779
-TNS   : -1.779
-
-Type  : Fast Model Recovery 'horario:H1|contador:M1|divF:DIV2|estado'
+Type  : Fast Model Recovery 'horario:H1|contador:H1|divF:DIV3|estado'
 Slack : -1.770
 TNS   : -1.770
 
-Type  : Fast Model Recovery 'horario:H1|contador:H2|divF:DIV2|estado'
-Slack : -1.766
-TNS   : -1.766
+Type  : Fast Model Recovery 'cronometro:C1|contador:MS1|divF:DIV3|estado'
+Slack : -1.760
+TNS   : -1.760
 
-Type  : Fast Model Recovery 'horario:H1|contador:M1|divF:DIV3|estado'
-Slack : -1.762
-TNS   : -1.762
+Type  : Fast Model Recovery 'alarme:A1|contador:M2|divF:DIV3|estado'
+Slack : -1.756
+TNS   : -1.756
 
-Type  : Fast Model Recovery 'horario:H1|divF:DIV1|estado'
-Slack : -1.744
-TNS   : -1.744
-
-Type  : Fast Model Recovery 'horario:H1|contador:H1|divF:DIV2|estado'
-Slack : -1.738
-TNS   : -1.738
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:M2|divF:DIV2|estado'
-Slack : -1.730
-TNS   : -1.730
-
-Type  : Fast Model Recovery 'horario:H1|contador:M2|divF:DIV1|estado'
-Slack : -1.715
-TNS   : -1.715
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:M2|divF:DIV3|estado'
-Slack : -1.712
-TNS   : -1.712
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:MS1|divF:DIV2|estado'
-Slack : -1.698
-TNS   : -1.698
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:M1|divF:DIV2|estado'
-Slack : -1.693
-TNS   : -1.693
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:M1|divF:DIV3|estado'
-Slack : -1.679
-TNS   : -1.679
-
-Type  : Fast Model Recovery 'alarme:A1|contador:H2|divF:DIV1|estado'
-Slack : -1.673
-TNS   : -1.673
-
-Type  : Fast Model Recovery 'horario:H1|contador:H1|divF:DIV1|estado'
-Slack : -1.631
-TNS   : -1.631
-
-Type  : Fast Model Recovery 'horario:H1|contador:H2|divF:DIV1|estado'
-Slack : -1.625
-TNS   : -1.625
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:S2|divF:DIV2|estado'
-Slack : -1.593
-TNS   : -1.593
+Type  : Fast Model Recovery 'cronometro:C1|contador:S1|divF:DIV1|estado'
+Slack : -1.719
+TNS   : -1.719
 
 Type  : Fast Model Recovery 'cronometro:C1|contador:S2|divF:DIV1|estado'
-Slack : -1.582
-TNS   : -1.582
+Slack : -1.689
+TNS   : -1.689
 
-Type  : Fast Model Recovery 'cronometro:C1|contador:M1|divF:DIV1|estado'
-Slack : -1.577
-TNS   : -1.577
+Type  : Fast Model Recovery 'cronometro:C1|contador:MS1|divF:DIV2|estado'
+Slack : -1.687
+TNS   : -1.687
 
-Type  : Fast Model Recovery 'alarme:A1|contador:H2|divF:DIV3|estado'
-Slack : -1.547
-TNS   : -1.547
+Type  : Fast Model Recovery 'horario:H1|contador:H2|divF:DIV3|estado'
+Slack : -1.659
+TNS   : -1.659
 
-Type  : Fast Model Recovery 'horario:H1|clockM'
-Slack : -0.715
-TNS   : -0.715
+Type  : Fast Model Recovery 'cronometro:C1|contador:M2|divF:DIV3|estado'
+Slack : -1.640
+TNS   : -1.640
 
-Type  : Fast Model Recovery 'alarme:A1|contador:M1|divF:DIV4|estado'
-Slack : -0.701
-TNS   : -0.701
+Type  : Fast Model Recovery 'cronometro:C1|contador:MS1|divF:DIV1|estado'
+Slack : -1.632
+TNS   : -1.632
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Slack : -1.611
+TNS   : -1.611
+
+Type  : Fast Model Recovery 'alarme:A1|contador:M2|divF:DIV1|estado'
+Slack : -1.578
+TNS   : -1.578
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:S2|divF:DIV2|estado'
+Slack : -1.567
+TNS   : -1.567
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:M2|divF:DIV2|estado'
+Slack : -1.540
+TNS   : -1.540
 
 Type  : Fast Model Recovery 'cronometro:C1|divF:DIV1|estado'
-Slack : -0.618
-TNS   : -0.618
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:S2|divF:DIV3|estado'
-Slack : -0.605
-TNS   : -1.041
-
-Type  : Fast Model Recovery 'alarme:A1|clockM'
-Slack : -0.513
-TNS   : -0.513
-
-Type  : Fast Model Recovery 'horario:H1|contador:S1|divF:DIV4|estado'
-Slack : -0.473
-TNS   : -0.473
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:M1|divF:DIV4|estado'
-Slack : -0.441
-TNS   : -0.441
+Slack : -0.828
+TNS   : -0.828
 
 Type  : Fast Model Recovery 'horario:H1|clockH'
-Slack : -0.435
-TNS   : -0.435
-
-Type  : Fast Model Recovery 'alarme:A1|contador:H1|divF:DIV4|estado'
-Slack : -0.432
-TNS   : -0.432
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:MS1|divF:DIV4|estado'
-Slack : -0.432
-TNS   : -0.432
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:MS2|divF:DIV4|estado'
-Slack : -0.432
-TNS   : -0.432
-
-Type  : Fast Model Recovery 'horario:H1|contador:M1|divF:DIV4|estado'
-Slack : -0.427
-TNS   : -0.427
-
-Type  : Fast Model Recovery 'horario:H1|contador:H1|divF:DIV4|estado'
-Slack : -0.373
-TNS   : -0.373
-
-Type  : Fast Model Recovery 'cronometro:C1|contador:S1|divF:DIV4|estado'
-Slack : -0.344
-TNS   : -0.344
+Slack : -0.816
+TNS   : -0.816
 
 Type  : Fast Model Recovery 'alarme:A1|clockH'
-Slack : -0.343
-TNS   : -0.343
+Slack : -0.719
+TNS   : -0.719
+
+Type  : Fast Model Recovery 'horario:H1|contador:M1|divF:DIV4|estado'
+Slack : -0.688
+TNS   : -0.688
+
+Type  : Fast Model Recovery 'horario:H1|contador:H1|divF:DIV4|estado'
+Slack : -0.668
+TNS   : -0.668
+
+Type  : Fast Model Recovery 'horario:H1|clockM'
+Slack : -0.615
+TNS   : -0.615
+
+Type  : Fast Model Recovery 'alarme:A1|contador:M1|divF:DIV4|estado'
+Slack : -0.574
+TNS   : -0.574
+
+Type  : Fast Model Recovery 'alarme:A1|clockM'
+Slack : -0.562
+TNS   : -0.562
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:S2|divF:DIV3|estado'
+Slack : -0.558
+TNS   : -0.925
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:M1|divF:DIV4|estado'
+Slack : -0.529
+TNS   : -0.529
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:MS1|divF:DIV4|estado'
+Slack : -0.434
+TNS   : -0.434
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:MS2|divF:DIV4|estado'
+Slack : -0.433
+TNS   : -0.433
+
+Type  : Fast Model Recovery 'horario:H1|contador:S1|divF:DIV4|estado'
+Slack : -0.430
+TNS   : -0.430
+
+Type  : Fast Model Recovery 'cronometro:C1|contador:S1|divF:DIV4|estado'
+Slack : -0.428
+TNS   : -0.428
+
+Type  : Fast Model Recovery 'alarme:A1|contador:H1|divF:DIV4|estado'
+Slack : -0.414
+TNS   : -0.414
 
 Type  : Fast Model Recovery 'set'
-Slack : -0.143
-TNS   : -0.432
+Slack : -0.327
+TNS   : -1.100
+
+Type  : Fast Model Recovery 'clock1'
+Slack : -0.217
+TNS   : -0.217
+
+Type  : Fast Model Removal 'clock1'
+Slack : -0.804
+TNS   : -0.804
 
 Type  : Fast Model Removal 'set'
-Slack : -0.956
-TNS   : -3.768
+Slack : -0.783
+TNS   : -2.954
 
-Type  : Fast Model Removal 'alarme:A1|clockM'
-Slack : 0.630
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:H1|divF:DIV4|estado'
-Slack : 0.737
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:S1|divF:DIV4|estado'
-Slack : 0.747
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|clockH'
-Slack : 0.748
-TNS   : 0.000
+Type  : Fast Model Removal 'cronometro:C1|contador:S2|divF:DIV3|estado'
+Slack : -0.038
+TNS   : -0.038
 
 Type  : Fast Model Removal 'cronometro:C1|contador:S1|divF:DIV4|estado'
-Slack : 0.748
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:H1|divF:DIV4|estado'
-Slack : 0.884
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:M1|divF:DIV4|estado'
-Slack : 0.912
+Slack : 0.023
 TNS   : 0.000
 
 Type  : Fast Model Removal 'cronometro:C1|contador:MS1|divF:DIV4|estado'
-Slack : 0.917
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|clockH'
-Slack : 0.942
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|divF:DIV1|estado'
-Slack : 0.963
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:S2|divF:DIV3|estado'
-Slack : 1.009
+Slack : 0.064
 TNS   : 0.000
 
 Type  : Fast Model Removal 'cronometro:C1|contador:MS2|divF:DIV4|estado'
-Slack : 1.041
+Slack : 0.086
 TNS   : 0.000
 
-Type  : Fast Model Removal 'alarme:A1|contador:M1|divF:DIV4|estado'
-Slack : 1.043
+Type  : Fast Model Removal 'horario:H1|contador:S1|divF:DIV4|estado'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|divF:DIV1|estado'
+Slack : 0.609
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:H1|divF:DIV4|estado'
+Slack : 0.666
 TNS   : 0.000
 
 Type  : Fast Model Removal 'cronometro:C1|contador:M1|divF:DIV4|estado'
-Slack : 1.057
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|clockM'
+Slack : 0.815
 TNS   : 0.000
 
 Type  : Fast Model Removal 'horario:H1|clockM'
-Slack : 1.235
+Slack : 0.884
 TNS   : 0.000
 
-Type  : Fast Model Removal 'horario:H1|divF:DIV1|estado'
-Slack : 1.279
+Type  : Fast Model Removal 'alarme:A1|clockH'
+Slack : 0.969
 TNS   : 0.000
 
-Type  : Fast Model Removal 'horario:H1|contador:S1|divF:DIV2|estado'
-Slack : 1.403
+Type  : Fast Model Removal 'alarme:A1|contador:M1|divF:DIV4|estado'
+Slack : 0.969
 TNS   : 0.000
 
-Type  : Fast Model Removal 'horario:H1|contador:S1|divF:DIV1|estado'
-Slack : 1.438
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:S1|divF:DIV3|estado'
-Slack : 1.627
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:S2|divF:DIV1|estado'
-Slack : 1.986
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:H2|divF:DIV1|estado'
-Slack : 1.989
+Type  : Fast Model Removal 'horario:H1|contador:H1|divF:DIV4|estado'
+Slack : 1.022
 TNS   : 0.000
 
 Type  : Fast Model Removal 'cronometro:C1|contador:S2|divF:DIV2|estado'
-Slack : 1.997
+Slack : 1.162
 TNS   : 0.000
 
-Type  : Fast Model Removal 'alarme:A1|contador:H2|divF:DIV3|estado'
-Slack : 1.999
+Type  : Fast Model Removal 'horario:H1|clockH'
+Slack : 1.169
 TNS   : 0.000
 
-Type  : Fast Model Removal 'alarme:A1|contador:M1|divF:DIV3|estado'
-Slack : 2.015
+Type  : Fast Model Removal 'horario:H1|contador:M1|divF:DIV4|estado'
+Slack : 1.177
 TNS   : 0.000
 
-Type  : Fast Model Removal 'cronometro:C1|contador:MS1|divF:DIV2|estado'
-Slack : 2.043
+Type  : Fast Model Removal 'horario:H1|divF:DIV1|estado'
+Slack : 1.254
 TNS   : 0.000
 
-Type  : Fast Model Removal 'alarme:A1|contador:M1|divF:DIV1|estado'
-Slack : 2.069
+Type  : Fast Model Removal 'horario:H1|contador:S1|divF:DIV2|estado'
+Slack : 1.277
 TNS   : 0.000
 
-Type  : Fast Model Removal 'horario:H1|contador:S2|divF:DIV2|estado'
-Slack : 2.122
+Type  : Fast Model Removal 'horario:H1|contador:S1|divF:DIV1|estado'
+Slack : 1.281
 TNS   : 0.000
 
-Type  : Fast Model Removal 'alarme:A1|contador:H2|divF:DIV1|estado'
-Slack : 2.125
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:S2|divF:DIV3|estado'
-Slack : 2.129
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:H2|divF:DIV2|estado'
-Slack : 2.130
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:H1|divF:DIV1|estado'
-Slack : 2.138
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:H2|divF:DIV3|estado'
-Slack : 2.143
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:S2|divF:DIV1|estado'
-Slack : 2.144
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:M1|divF:DIV2|estado'
-Slack : 2.177
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:M1|divF:DIV1|estado'
-Slack : 2.180
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:M2|divF:DIV2|estado'
-Slack : 2.189
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:M2|divF:DIV1|estado'
-Slack : 2.200
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:H1|divF:DIV2|estado'
-Slack : 2.203
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:MS1|divF:DIV3|estado'
-Slack : 2.220
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:MS1|divF:DIV1|estado'
-Slack : 2.228
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:H1|divF:DIV1|estado'
-Slack : 2.232
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:H1|divF:DIV2|estado'
-Slack : 2.245
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:H1|divF:DIV3|estado'
-Slack : 2.252
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:M2|divF:DIV3|estado'
-Slack : 2.277
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:M1|divF:DIV3|estado'
-Slack : 2.282
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:M1|divF:DIV3|estado'
-Slack : 2.282
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:M1|divF:DIV2|estado'
-Slack : 2.290
+Type  : Fast Model Removal 'cronometro:C1|contador:S2|divF:DIV1|estado'
+Slack : 1.284
 TNS   : 0.000
 
 Type  : Fast Model Removal 'cronometro:C1|contador:M1|divF:DIV2|estado'
-Slack : 2.296
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:M2|divF:DIV3|estado'
-Slack : 2.328
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:M2|divF:DIV1|estado'
-Slack : 2.331
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:M2|divF:DIV3|estado'
-Slack : 2.338
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:M2|divF:DIV2|estado'
-Slack : 2.346
-TNS   : 0.000
-
-Type  : Fast Model Removal 'alarme:A1|contador:H2|divF:DIV2|estado'
-Slack : 2.356
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:MS2|divF:DIV3|estado'
-Slack : 2.358
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:H1|divF:DIV3|estado'
-Slack : 2.377
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:MS2|divF:DIV2|estado'
-Slack : 2.389
-TNS   : 0.000
-
-Type  : Fast Model Removal 'horario:H1|contador:M2|divF:DIV2|estado'
-Slack : 2.405
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:M2|divF:DIV1|estado'
-Slack : 2.424
-TNS   : 0.000
-
-Type  : Fast Model Removal 'cronometro:C1|contador:MS2|divF:DIV1|estado'
-Slack : 2.454
+Slack : 1.345
 TNS   : 0.000
 
 Type  : Fast Model Removal 'cronometro:C1|contador:S1|divF:DIV1|estado'
-Slack : 2.513
+Slack : 1.372
 TNS   : 0.000
 
-Type  : Fast Model Removal 'horario:H1|contador:M1|divF:DIV1|estado'
-Slack : 2.638
+Type  : Fast Model Removal 'cronometro:C1|contador:M1|divF:DIV1|estado'
+Slack : 1.410
 TNS   : 0.000
 
-Type  : Fast Model Removal 'cronometro:C1|contador:S1|divF:DIV2|estado'
-Slack : 2.664
+Type  : Fast Model Removal 'cronometro:C1|contador:MS1|divF:DIV1|estado'
+Slack : 1.413
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:MS2|divF:DIV2|estado'
+Slack : 1.441
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:MS2|divF:DIV3|estado'
+Slack : 1.442
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:MS2|divF:DIV1|estado'
+Slack : 1.445
 TNS   : 0.000
 
 Type  : Fast Model Removal 'cronometro:C1|contador:S1|divF:DIV3|estado'
-Slack : 2.753
+Slack : 1.461
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:S1|divF:DIV2|estado'
+Slack : 1.462
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:MS1|divF:DIV2|estado'
+Slack : 1.468
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:S1|divF:DIV3|estado'
+Slack : 1.495
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:MS1|divF:DIV3|estado'
+Slack : 1.541
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:M1|divF:DIV3|estado'
+Slack : 1.543
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:M2|divF:DIV2|estado'
+Slack : 1.784
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:M2|divF:DIV1|estado'
+Slack : 1.855
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cronometro:C1|contador:M2|divF:DIV3|estado'
+Slack : 1.884
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:M2|divF:DIV1|estado'
+Slack : 1.973
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:H2|divF:DIV3|estado'
+Slack : 2.013
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:S2|divF:DIV2|estado'
+Slack : 2.036
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:M1|divF:DIV1|estado'
+Slack : 2.054
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:H1|divF:DIV2|estado'
+Slack : 2.119
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:H1|divF:DIV3|estado'
+Slack : 2.123
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:H2|divF:DIV2|estado'
+Slack : 2.151
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:M2|divF:DIV3|estado'
+Slack : 2.151
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:H2|divF:DIV2|estado'
+Slack : 2.165
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:S2|divF:DIV3|estado'
+Slack : 2.168
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:H2|divF:DIV1|estado'
+Slack : 2.176
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:H1|divF:DIV3|estado'
+Slack : 2.221
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:S2|divF:DIV1|estado'
+Slack : 2.233
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:H1|divF:DIV1|estado'
+Slack : 2.262
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:M2|divF:DIV2|estado'
+Slack : 2.272
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:H1|divF:DIV2|estado'
+Slack : 2.276
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:H2|divF:DIV1|estado'
+Slack : 2.281
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:M1|divF:DIV2|estado'
+Slack : 2.285
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:H1|divF:DIV1|estado'
+Slack : 2.291
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:M1|divF:DIV3|estado'
+Slack : 2.300
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:M2|divF:DIV3|estado'
+Slack : 2.346
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:M1|divF:DIV1|estado'
+Slack : 2.360
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:M1|divF:DIV2|estado'
+Slack : 2.390
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:H2|divF:DIV3|estado'
+Slack : 2.400
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:M2|divF:DIV2|estado'
+Slack : 2.471
+TNS   : 0.000
+
+Type  : Fast Model Removal 'horario:H1|contador:M2|divF:DIV1|estado'
+Slack : 2.478
+TNS   : 0.000
+
+Type  : Fast Model Removal 'alarme:A1|contador:M1|divF:DIV3|estado'
+Slack : 2.483
 TNS   : 0.000
 
 Type  : Fast Model Minimum Pulse Width 'clock1'
@@ -2397,6 +2433,10 @@ TNS   : -5.222
 Type  : Fast Model Minimum Pulse Width 'modo'
 Slack : -1.222
 TNS   : -3.222
+
+Type  : Fast Model Minimum Pulse Width 'reset'
+Slack : -1.222
+TNS   : -2.222
 
 Type  : Fast Model Minimum Pulse Width 'strt'
 Slack : -1.222

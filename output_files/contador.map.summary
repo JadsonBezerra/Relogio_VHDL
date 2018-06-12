@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Fri Jun  8 17:16:35 2018
+Analysis & Synthesis Status : Successful - Mon Jun 11 07:19:27 2018
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : contador
 Top-level Entity Name : relogio
 Family : Cyclone II
-Total logic elements : 2,742
-    Total combinational functions : 2,724
-    Dedicated logic registers : 1,852
-Total registers : 1852
+Total logic elements : 2,746
+    Total combinational functions : 2,728
+    Dedicated logic registers : 1,853
+Total registers : 1853
 Total pins : 51
 Total virtual pins : 0
 Total memory bits : 0
